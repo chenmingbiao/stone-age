@@ -1,0 +1,10 @@
+WARP:21308,20,7
+FREE:LV>64&ENDEV=4&NOWEV=46&ITEM=2767&ITEM=2768
+MONEY:-1
+FreeMsg:\n想要继续前进的条件\n你毫无问题的已经达到了\n来，请进吧。
+PayMsg:\n没有达到某个条件\n是无法进入这里的\n请回吧。
+PartyMsg:
+团队无法进入这里\n
+MoneyMsg:\n没有达到某个条件\n是无法进入这里的\n请回吧。
+
+

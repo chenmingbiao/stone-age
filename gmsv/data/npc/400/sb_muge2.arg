@@ -1,0 +1,13 @@
+entype:2
+askbattlemsg1:不把这只恐龙打倒的话
+askbattlemsg2:就无法往前进
+askbattlemsg3:打倒它并向前进吗？
+start msg:
+dieact:1
+warpfl:41
+warpx:33
+warpy:39
+end msg:
+enemyno:1095,1095,1095,1087,1086,1096,1096,1096,1096,1096
+deniedmsg:道路塞住了无法再往前进
+

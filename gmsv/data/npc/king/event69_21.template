@@ -1,0 +1,16 @@
+NPCTEMPLATE
+#######中元歹月卅布件札↓白田芮##########
+{
+templatename=event69_21
+makeatnobody=1
+makeatnosee=1
+type=101058
+hp=
+mp=
+str=
+tough=
+functionset=NPCEnemy
+fly=
+itemnum=
+}
+

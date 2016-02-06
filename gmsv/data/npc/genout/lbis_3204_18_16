@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:1.0
+main_msg:欢迎光临多多的肉店！
+buy_msg:买,购买,感谢您,kau,buy,menu,谢谢,买东西
+sell_msg:卖东西,卖,sell,uru
+other_msg:提示,情报,生意如何？,肉,niku
+hint_msg:现在加盟店募集中，目标８２５家。
+sellonly_msg:这里是只买收的店。\n你要卖肉吗？
+stone_msg:你的钱太多了唷！
+realy_msg:这样就好了吗？
+LimitItemNo:1234-1249
+special_rate:1.0
+
+
+
+
+

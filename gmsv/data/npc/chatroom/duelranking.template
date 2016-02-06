@@ -1,0 +1,12 @@
+NPCTEMPLATE
+{
+templatename=duelranking
+makeatnobody=1
+makeatnosee=1
+type=SPR_sslma_1
+functionset=Duelranking
+hp=100
+mp=100
+str=1
+tough=1
+}

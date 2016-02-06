@@ -1,0 +1,32 @@
+NPCCREATE
+
+
+###### 说故事的老爷爷 ######
+{
+name=说故事的老爷爷
+floorid=1000
+borncenter=72,48,1,1
+dir=4
+createnum=1
+enemy=changeevent|file:poru/samugiru04
+graphicname=16001
+}
+
+
+
+
+
+
+###### 黑乌力 ######
+{
+name=黑乌力
+floorid=1000
+borncenter=71,48,1,1
+dir=4
+createnum=1
+enemy=npcgen_warpman|file:poru/wpm_500_470_470
+time=0
+graphicname=100388
+borncorner=71,48,71,48
+ignoreinvincible=1
+}

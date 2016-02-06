@@ -1,0 +1,17 @@
+NomalMainMsg:这里的水是全波拉岛的命脉！
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0
+AcceptMsg:你是来买水的吗？一壶需要50元哦！
+ThanksMsg:好！我把水给你！
+StoneLessMsg:真不好意思...你钱不够喔...
+ItemFullMsg:你道具已经满了，水不能给你...
+GetItem:18560*1
+DelStone:50
+EventEnd
+
+
+

@@ -1,0 +1,15 @@
+entype:2
+askbattlemsg1:竟然能够打倒雅尔丝来到这里，证明你真的很厉害喔！
+askbattlemsg2:虽然我不喜欢战斗，不过你也不可能就这样离去吧？
+askbattlemsg3:不过保护精灵王大人是我们守护的职责呢，真麻烦…
+askbattlemsg4:没办法，只好开打了吧？
+startmsg:我是水守护瓦琦儿，注意了！
+dieact:1
+warpfl:30697
+warpx:18
+warpy:14
+endmsg:一个人类竟然能够打倒精灵，真是不可思议啊…
+enemyno:1687,1678,1678,1678,1678,1678,1678,1678,1678,1678
+deniedmsg:哎呀，瓦琦儿不喜欢战斗呢，如果是约会的话还可以考虑考虑喔？
+alreadymsg:抱歉，我已经跟人有约了说…
+onebattle:1

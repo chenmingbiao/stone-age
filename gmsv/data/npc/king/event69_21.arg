@@ -1,0 +1,15 @@
+entype:2
+askbattlemsg1:能够走到这里，值得好好称赞一番…
+askbattlemsg2:是侥幸还是实力，就让我来试试吧！
+askbattlemsg3:我是风守护威恩德，是这层风之界的守护者。
+askbattlemsg4:就让我见识见识你的能力是否能够继续前进吧！
+startmsg:准备好了吗？我是不会手下留情的！
+dieact:1
+warpfl:30699
+warpx:17
+warpy:14
+endmsg:果然厉害…
+enemyno:1689,1700,1700,1700,1700,1700,1700,1700,1700,1700
+deniedmsg:我不喜欢无益的杀生，赶快离开天空之岛吧。
+alreadymsg:请一个一个来吧。
+onebattle:1

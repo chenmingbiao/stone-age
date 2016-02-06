@@ -1,0 +1,69 @@
+#######################################
+#环岛活动in萨伊那斯                  #
+#最后检查点（CD）         负责人：西竹#
+#######################################
+#玛丽娜丝最后检查点
+#######################################
+
+
+NomalMainMsg:你要不要也参加环岛活动啊？可以在萨姆吉尔报名哦。
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2587&ENDEV=17
+NomalWindowMsg:\n这里是SOT“D路线”的最后集合地点。 \n“C路线”的最后集合地点···\n好像是在萨姆吉尔啊。\n就差一点点了，请继续加油啊！
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2587
+NomalWindowMsg:\n辛苦你了！\n你已经把SOT所有的检查点\都通过一圈了！ \n我们要把这个奖品···送给你！\n期待你下次再来参加。 \n辛苦你了。
+ItemFullMsg:\n\n你身上东西太多了 \n能不能请你把东西弄少一点在过来一趟？。 PetFullMsg:\n\n你的宠物数满了，没把法带宠物。\n能不能请你把宠物弄少一点再过来一下啊？
+DelItem:2587
+GetRandItem:255,352,769,1062,68,1063,58,68,2565,2566
+GetPet:76,309,361,96
+EventEnd
+
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2580,LV>0&ITEM=2581,LV>0&ITEM=2582,LV>0&ITEM=2583,LV>0&ITEM=2584,LV>0&ITEM=2585,LV>0&ITEM=2586
+AcceptMsg:\n你是SOT的参加者啊。\n看你的检查项目\n你好像还没完成耶···\n你要退出了吗？
+ThanksMsg:\n这样啊，那真是太可惜了 \n要是你下次可以通过\n所有的检查点就好了！\n\n这是参加奖，请收下吧。
+ItemFullMsg:你身上东西太多，放不下参加奖了。\n能不能请你东西弄少一点之后，再过来一趟啊？
+DelItem:2580,2581,2582,2583,2584,2585,2586
+GetRandItem:12644,12641,12635,12656,12643
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2576,LV>0&ITEM=2577,LV>0&ITEM=2578,LV>0&ITEM=2579
+AcceptMsg:\n你是SOT的参加者啊。\n看你的检查项目\n你好像还没完成啊\n你要退出了吗？
+ThanksMsg:\n这样啊，那真是太可惜了 \n要是你下次可以通过\n所有的检查点就好了！
+DelItem:2576,2577,2578,2579
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2575
+AcceptMsg:\n你是SOT的参加者啊。\n···看你的检查项目\n你好像连一个检查点都没通过···\n你要退出了吗？
+ThanksMsg:\n这样啊，那真是太可惜了 \n要是你下次可以通过\n所有的检查点就好了！
+DelItem:2575
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:萨伊那斯环岛活动简称为SOT\n这是环绕整个萨依那斯岛\n的环岛活动哦。\n你要不要也来参加啊？ \n我是SOT的检查员。\n报名的地方在萨尔吉姆。
+EventEnd
+
+
+
+
+

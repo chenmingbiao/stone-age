@@ -1,0 +1,37 @@
+###########################################################
+#迷路中得到宝袋                                           #
+# 					       负责人:西竹#
+###########################################################
+
+NomalMainMsg:好像喉咙干得动不了的样子
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2709
+AcceptMsg:\n\n好像喉咙干得动不了的样子\n要喝壶里的水吗？
+ThanksMsg:\n\n\n恐龙喝完水后离开了
+ItemFullMsg:\n\n\n东西太多拿不动的样子
+NpcWarp:30001.42.42,30008.41.58,30011.32.34,30008.78.64,30010.25.43,30012.34.40,30008.23.61,30001.42.42,30008.84.19
+GetItem:2716
+DelItem:2709
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&ITEM=2710,LV>0&ITEM=2711,LV>0&ITEM=2712,LV>0&ITEM=2713,LV>0&ITEM=2714,LV>0&ITEM=2715,LV>0&ITEM=2716,LV>0&ITEM=2717,LV>0&ITEM=2718
+AcceptMsg:\n\n好像喉咙干得动不了的样子\n要喝壶里的水吗？
+ThanksMsg:\n\n\n恐龙喝完水后离开了\n壶里的水好像全没了的样子
+ItemFullMsg:\n\n\n东西太多拿不动的样子
+DelItem:2710,2711,2712,2713,2714,2715,2716,2717,2718,
+GetItem:2708
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n\n好像喉咙干得动不了的样子
+EventEnd
+
+
+

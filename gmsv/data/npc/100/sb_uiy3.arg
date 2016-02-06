@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:你打算和我们战斗吗？
+startmsg:兄弟，打倒我们以通过这里吗？
+dieact:1
+warpfl:10007
+warpx:29
+warpy:37
+end msg:
+enemyno:294,295,296,297,298
+deniedmsg:你好。
+

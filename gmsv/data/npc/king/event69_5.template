@@ -1,0 +1,15 @@
+NPCTEMPLATE
+
+{
+templatename=event69_5
+makeatnobody=1
+makeatnosee=1
+type=100886
+hp=
+mp=
+str=
+tough=
+functionset=NPCEnemy
+fly=
+itemnum=
+}

@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:为什么你会有那个脚印？
+askbattlemsg2:莫非你是来收拾我们的吗？
+startmsg:哇哈哈哈。看我打碎你那天真的想法！
+dieact:0
+item:2431
+end msg:呜哇哇…我、我输了。
+enemyno:514,518
+deniedmsg:你是什么人？难道不知道不可以随便进入别人的房间吗？若不快出去我就让你好看！
+time:300
+

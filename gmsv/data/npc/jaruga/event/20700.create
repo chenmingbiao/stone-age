@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=20712
+borncorner=27,24,27,24
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16035
+name=ＪＢＡ受理柜台小姐
+enemy=changeevent|file:jaruga/event/20700_1
+}

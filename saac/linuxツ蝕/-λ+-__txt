@@ -1,0 +1,1 @@
+只要把SASQL。C覆盖SAAC目录和SASQL。H覆盖到include/目录即可可以编译LINUX端。

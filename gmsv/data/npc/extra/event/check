@@ -1,0 +1,42 @@
+##################################################
+#搪烯¨チェックポイントでガンゾ客妨げ〖っと 　　 #
+# 　　　　　　　　　　　　　　　　　　 么碰¨谰幂#
+##################################################
+
+
+NomalMainMsg:今天在这种地方工作呀···。不知道能不能沿着本来的路回去···（T_T）
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2610&ITEM!=2613
+AcceptMsg:\n哎呀、没想到你这么容易就能走到我这里呀！\n另外一个团队是···、秘密秘密\n那么你要做我的工作吗。
+ThanksMsg:\n···请拿着这个“愿藏娃娃”\n往各个不同的出口前进。\n\n从入口无法回到会场\n要注意所剩的时间希望你不要迷路。
+ItemFullMsg:\n嗯？你的所持品太多\n很像无法收下这个了。\n是否可以把手中的行李减少之后再到这里\n来呢？
+DelItem:2610*1
+GetItem:2613*1
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2611&ITEM!=2614
+AcceptMsg:\n哎呀、没想到你这么容易就能走到我这里呀！\n另外一个团队是···、秘密秘密\n那么你要做我的工作吗。
+ThanksMsg:\n···请拿着这个“愿藏娃娃”\n往各个不同的出口前进。\n\n从入口无法回到会场\n要注意所剩的时间希望你不要迷路。
+ItemFullMsg:\n嗯？你的所持品太多\n很像无法收下这个了。\n是否可以把手中的行李减少之后再到这里\n来呢？
+DelItem:2611*1
+GetItem:2614*1
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2614,ITEM=2613
+NomalWindowMsg:\n你已经完全把CHECK POINT都\n绕完了不是吗。\n迷路了吗？\n\n还没有到达限制的时间的样子\n努力的坚持到最后了呀！\n可是···我自己也不知道能不能走回会场···。
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM!=2610&ITEM!=2611
+NomalWindowMsg:\n你很像把要进入这个洞窟所需要的门票\n搞丢了吧。\n因为我要确认门票再交给POINT\n很遗憾无法交给CHECK POINT喔。
+EventEnd

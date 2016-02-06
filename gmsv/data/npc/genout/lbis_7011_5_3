@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:0.7
+main_msg:欢迎光临！
+buy_msg:买,购买,感谢您,kau,buy,menu,谢谢,买东西
+sell_msg:卖东西,卖,sell,uru
+sell_main:客人要卖那块肉给我呢？\n
+other_msg:暗示,景气是,肉,niku
+hint_msg:现在加盟店募集中喔，你也想加盟吗？
+sellonly_msg:这里是只买收的专门店喔。\n
+stone_msg:您拥有的金钱太多了喔！
+realy_msg:这样就好了吗？
+LimitItemType:
+special_rate:1.0
+LimitItemNo:1234-1249
+special_item:
+
+

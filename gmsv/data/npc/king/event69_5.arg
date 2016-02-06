@@ -1,0 +1,14 @@
+entype:2
+askbattlemsg1:该死的人类，偷了我的东西还敢回来？
+askbattlemsg2:今天给我逮到了，一定要好好教训你！
+startmsg:看我怎么修理你们这些人类！
+dieact:1
+warpfl:30607
+warpx:7
+warpy:11
+endmsg:我不甘心啊！…
+item:19622
+enemyno:1685,1681,1681,1681,1681,1681,1681,1681,1681,1681
+deniedmsg:这里不是你们人类该来的地方，快滚！
+alreadymsg:等我解决这群人类后马上就轮到你！
+onebattle:1

@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:0.7
+buy_msg:你好,欢迎惠顾,买,买这个,buy
+sell_msg:卖,我卖,我要卖,卖什么,sell
+main_msg:欢迎光临
+sell_main:欢迎光临外出收购店\n你要卖什么肉给我啊。
+other_msg:暗示,情报,情况如何,肉,niku
+hint_msg:目前在募集打工人员
+sellonly_msg:欢迎光临肉品专门收购店\n你要卖肉吗？
+stone_msg:这样钱会太多哦。
+realy_msg:真的要这样哦？
+LimitItemNo:1234-1249
+
+special_rate:1.0
+
+
+

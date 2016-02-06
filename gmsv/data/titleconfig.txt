@@ -1,0 +1,41 @@
+# 称号を付加する際の条件をこのファイルに記しておく。
+# 行頭に"#"があるとその行のその文字以降はコメント。
+# １つの称号につき条件は複数定義できる。
+# 使える条件のパラメータ一覧
+#
+# FIXxxxというのは装備等によって変化した後のパラメータです。
+#
+# ITEM又はEQUIPITEMがある行は，アイテムを持つ，装備する等のイベントによってチェックされます。
+# また，EQUIPEVENT=num があるとその条件は装備イベントでチェックされます。（等号，不等号，numは実際には無視されます。）
+# よってITEM又はEQUIPITEMの無い行は長老に話しかけられた時にチェックされます。
+#
+#
+# STR,TGH,ATK,DEF,MAXMP,
+# LEVEL,CLASS,ITEM,EQUIPITEM,FIREREG,FIXFIREREG,
+# ICEREG,FIXICEREG, THUNDERREG,FIXTHUNDERREG,
+# HITRATE,FIXHITRATE,
+# KANJILV,TALKCNT,WALKCNT,DEADCNT,LOGINCNT,BASEIMAGENUMBER,GOLD
+# SEX (0:男 1:女)
+# SKILL :   書く時はSKILL>=ID|LEVEL などの形式で書く。
+#           等号，不等号による比較はスキルIDには適用されません。
+#           スキルLEVELのみ適用されます。
+#           （スキルIDはそのIDを持っているかのみチェックする。）
+#
+
+
+#STR>=800,CLASS=0,TITLE=10
+
+#こうも書けるぞ。
+#{
+#STR>=1000
+#CLASS=1
+#TITLE=11
+#}
+#TGH>=500,TGH<=700,TITLE=12
+#ITEM=2,TITLE=9
+#EQUIPITEM=103,TITLE=8
+
+##########	パラメータで貰える称号の設定（長老）	##########
+
+
+STR>=99999,	MAXMP>=99999,				TITLE=0

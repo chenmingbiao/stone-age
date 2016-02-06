@@ -1,0 +1,62 @@
+#######################################
+#环岛活动in萨伊那斯                  #
+#第3检查点（C ）         负责人：西竹#
+#######################################
+#柯尔克的大坑道
+#######################################
+
+
+NomalMainMsg:你要不要也参加环岛活动啊？可以萨姆吉尔报名哦。
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2581&ENDEV=17
+NomalWindowMsg:\n答对了！\n这样我会在检查石上\n写上你已经通过第7检查点了。\n来，请拿去。请继续加油哦。\n下一个检查点是柯尔克村。
+ItemFullMsg:嗯？你身上东西太多了 \n好像装不下检查石哦。
+KeyWord:ＢＡＲ　Ｓｉｌｋｙ　ＣＬＵＢ
+DelItem:2581
+GetItem:2582
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2582&ENDEV=17,LV>0&ITEM=2583&ENDEV=17,LV>0&ITEM=2584&ENDEV=17,LV>0&ITEM=2585&ENDEV=17,LV>0&ITEM=2586&ENDEV=17,LV>0&ITEM=2587&ENDEV=17
+NomalWindowMsg:\n你好像已经通过 \n这个检查点了\n下一个是柯尔克村。\n请继续加油哦。
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2575&ENDEV=17,LV>0&ITEM=2576&ENDEV=17,LV>0&ITEM=2577&ENDEV=17,LV>0&ITEM=2578&ENDEV=17,LV>0&ITEM=2579&ENDEV=17,LV>0&ITEM=2580&ENDEV=17
+NomalWindowMsg:\n你现在到这个检查点\n好像还太早了一点。\n请按照顺序通过哦。\n那请你继续加油吧。
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2581&ENDEV=17
+NomalWindowMsg:\n请说出旁边看板 \n上问题的答案\n顺便提醒你一下，这个检查点\n是C路线哦。\n每个路线经过的地方都不一样。
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2575,LV>0&ITEM=2576,LV>0&ITEM=2577,LV>0&ITEM=2578,LV>0&ITEM=2579,LV>0&ITEM=2580,LV>0&ITEM=2581,LV>0&ITEM=2582,LV>0&ITEM=2583,LV>0&ITEM=2584,LV>0&ITEM=2585,LV>0&ITEM=2586,LV>0&ITEM=2587
+NomalWindowMsg:\n\n你是“D路线”的参加者吧。\n这里是“C路线”的检查点。\n请加油回到你原来的路线！
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:萨伊那斯环岛活动简称为SOT\n这是环绕整个萨依那斯岛\n的环岛活动哦。\n你要不要也来参加啊？ \n我是SOT的检查员。\n报名的地方在萨尔吉姆。
+EventEnd
+
+
+
+
+

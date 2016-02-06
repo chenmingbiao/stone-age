@@ -1,0 +1,14 @@
+LIMITSHOP
+main_msg:欢迎光临！\n现在我们实在缺乏食物，所以我们只买肉，不卖肉！
+realy_msg:真的可以吗？
+buy_msg:买,购买,感谢您,kau,buy,menu,谢谢,买东西
+sell_main:要卖哪种肉呢？
+sell_msg:卖东西,卖,sell,uru
+sell_rate:0.8
+special_rate:1.0
+LimitItemNo:1600-2343
+itemfull_msg:喂，道具已经满了不是吗？
+stone_msg:你的钱太多了吧！！
+other_msg:最近如何？
+hint_msg:最近在逃命，生意不太好...
+sellonly_msg:欢迎光临！\n现在我们实在缺乏食物，所以我们只买肉，不卖肉！

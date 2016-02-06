@@ -1,0 +1,10 @@
+NomalMainMsg:我是审判仪式的使者
+
+EventNo:4
+TYPE:ACCEPT
+EVENT:NOWEV=4&ITEM!=2417
+AcceptMsg:你可是来举行仪式？
+ThanksMsg:那么，给你１５个仪玉
+ItemFullMsg:如果想要全部的仪玉，就要空出15个空间才可
+GetItem:2417*15
+EventEnd

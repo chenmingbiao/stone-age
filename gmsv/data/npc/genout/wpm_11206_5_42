@@ -1,0 +1,10 @@
+WARP:11206,5,34
+FREE:LV>69
+MONEY:-1
+FreeMsg:\n你要离开这个洞窟吗？\n如果你有“风的手环”的话\n请让我收回去\n可以吗？
+PayMsg:\n你好像没有\n继续前进的资格哦。
+PartyMsg:\n接下来的地方\n一次只能一个人进入哦。
+MoneyMsg:你好像没有\n继续前进的资格哦。
+DelItem:2758
+
+

@@ -1,0 +1,58 @@
+sql_IP 127.0.0.1
+sql_Port 3306
+sql_ID root
+sql_PS Qq120848369
+sql_DataBase sa
+sql_Table user_table
+sql_LOCK user_lock
+sql_NAME Name
+sql_PASS Pass
+AutoReg 1
+
+##############################
+#SAAC基本参数设置
+# 帐户服务器端口
+port 9300
+
+# 帐户服务器密码
+pass test
+
+# rotale_internal
+rotale_internal 1000
+
+# LOG文件目录
+logdir log
+
+# LOCK文件目录
+lockdir lock
+
+# CHAR文件目录
+chardir char
+
+# CHAR_SLEEP文件目录
+sleepchardir char_sleep
+
+# WKLOG文件目录
+wklogdir data/wklog
+
+# MAIL文件目录
+maildir mail
+
+# family文件目录
+familydir data/family
+
+# fmpoint文件目录
+fmpointdir data/fmpointdir
+
+# fmsmemo文件目录
+fmsmemodir data/fmsmemodir
+
+##############################
+# 更新人物点数间隔xx秒
+Total_Charlist 3600
+# 更新进期邮件间隔xx秒
+Expired_mail 600
+# 删除家族成员间隔xx秒
+Del_Family_or_Member 3600
+# 更新家族信息间隔xx秒
+Write_Family 600

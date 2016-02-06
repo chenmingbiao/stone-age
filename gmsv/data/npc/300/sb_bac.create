@@ -1,0 +1,12 @@
+NPCCREATE
+#######¹£É×¥Ð¥Ã¥«¥¹##########
+{
+floorid=31805
+borncenter=26,23,1,1
+movecenter=20,20,100,100
+createnum=1
+dir=6
+graphicname=100401
+name=¿ó¹¤°Í¿¨Ë¹
+enemy=sb_bac|file:300/sb_bac.arg
+}

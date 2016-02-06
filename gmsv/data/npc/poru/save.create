@@ -1,0 +1,15 @@
+NPCCREATE
+
+
+###### 避难所的储存点 ######
+{
+name=避难所的储存点
+floorid=5500
+borncenter=35,19,1,1
+dir=5
+createnum=1
+enemy=npcgen_savepoint|file:poru/sp_5500_35_19
+graphicname=10048
+borncorner=35,19,35,19
+ignoreinvincible=1
+}

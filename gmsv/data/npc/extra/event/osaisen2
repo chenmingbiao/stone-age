@@ -1,0 +1,27 @@
+###########################################################
+#¤ª¤µ¤¤¤»¤ó¤·¤Þ¤·¤ç¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ #
+# 						Ã´Åö¡§À¾ÃÝ#
+###########################################################
+
+NomalMainMsg:ÕâÊÇ¾èÏ×Ïä¡£Çë¶àÖ¸½Ì¡£
+
+EventNo:-1
+TYPE:CLEAN
+EVENT:NOWEV=36,ENDEV=36
+CleanFlg:36
+CleanMainMsg:\n\n¡¡¡¡¡¡ÄãÒÑ¾­À­¹ýÉñÇ©ÁËÂð£¿
+CleanFlgMsg:\n\n¡¡¡¡¡¡¡¡¡¡Çë´ÓÉñÉçÇ°µÄÅÆ·»\n¡¡¡¡¡¡¡¡¡¡ÔÙÒ»´Î×ßÍù±¾µî¡£
+EventEnd
+
+EventNo:36
+TYPE:REQUEST
+EVENT:LV>0
+RequestMsg:\n\n¡¡¡¡°ÑÏãÓÍÇ®¡¢·ÅÈë¾èÏ×ÏäÄÚÂð£¿
+ThanksMsg:\n\n¡¡¡¡¡¡¡¡¡¡¡¡¹±Ï×ÁËÏãÓÍÇ®¡£
+StopMsg:\nÒªÖÕÖ¹ÏÖÔÚµÄÊÂ¼þÂð£¿
+EndStopMsg:ÈôÊÇ¡¢ËæÊ±Ïëµ½¶¼¿ÉÒÔÀ´à¸
+NoStopMsg:·Ç³£ÆÚ´ýà¸
+StoneLessMsg:\n\nÇ®²»¹»à¸¡£
+DelStone:50
+EventEnd
+

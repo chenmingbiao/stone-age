@@ -1,0 +1,53 @@
+NPCCREATE
+
+
+###### 村民 ######
+{
+name=村民
+floorid=1000
+borncenter=93,72,1,1
+dir=5
+createnum=1
+enemy=npcgen_man|file:poru/samugiru02
+graphicname=16039
+}
+
+
+###### 村庄少女 ######
+{
+name=村庄少女
+floorid=1000
+borncenter=97,32,1,1
+dir=5
+createnum=1
+enemy=npcgen_man|file:poru/samugiru2
+graphicname=16028
+}
+
+
+
+
+
+###### 村民 ######
+{
+name=村民
+floorid=1000
+borncenter=50,106,1,1
+dir=5
+createnum=1
+enemy=npcgen_man|file:poru/samugiru03
+graphicname=16019
+}
+
+
+
+###### 老爷爷的孙女 ######
+{
+name=老爷爷的孙女
+floorid=1013
+borncenter=14,16,1,1
+dir=6
+createnum=1
+enemy=changeevent|file:poru/girl
+graphicname=16009
+}

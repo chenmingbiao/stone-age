@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:1.0
+main_msg:欢迎光临
+buy_msg:买,购买,感谢您,kau,buy,menu,谢谢,买东西
+sell_msg:卖东西,卖,sell,uru
+sell_main:要卖哪种肉呢？
+other_msg:提示,情报,状况,肉品,niku
+hint_msg:目标１２５店。目前加盟店募集中。
+sellonly_msg:欢迎光临\n(科奥的肉品店)\n只跟你买可以吗？
+stone_msg:有很多钱
+realy_msg:真的可以吗？
+LimitItemNo:1234-1249
+
+special_rate:1.0
+
+
+

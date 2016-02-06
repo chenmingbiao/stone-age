@@ -1,0 +1,10 @@
+NPCTEMPLATE
+# transnigration
+{
+templatename=npc_transmigration
+makeatnobody=1
+makeatnosee=1
+name=
+graphicname=SPR_chr02
+functionset=transmigration
+}

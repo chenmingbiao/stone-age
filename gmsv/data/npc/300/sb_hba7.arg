@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:想要继续前进的话，只要把我打倒就可以！
+startmsg:如果可以打倒我的话，就允许你继续前进。
+dieact:1
+warpfl:30008
+warpx:79
+warpy:77
+end msg:
+enemyno:1239,1240,1240,1241,1241,1242,1243,1243,1242,1242
+deniedmsg:看来你似乎没有把我打倒并能往前进的资格。
+onebattle:0

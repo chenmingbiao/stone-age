@@ -1,0 +1,22 @@
+##################################################
+#将乌力斯凯的信件交给乌力美之事件 (哥亚山)#
+# 				       担任者:西竹
+##################################################
+
+NomalMainMsg:乌力
+EventNo:7
+TYPE:ACCEPT
+EVENT:NOWEV=7&ITEM=2414&ITEM=2425&ITEM!=2424
+AcceptMsg:我所卖的花在这洞窟中\n可是无人可比的。你也想要这种花吗？
+ThanksMsg:好吧。看在你的面子上，半买半赠送啦！\n如果连同书信送\n一定可以讨人欢心\n下次有空再过来坐坐！
+ItemFullMsg:啊！你的道具袋已经满了
+GetItem:2424
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=7,ENDEV=8&ITEM=2414
+NomalMsg:上回的鲜花攻势可有产生功效？
+EventEnd
+
+

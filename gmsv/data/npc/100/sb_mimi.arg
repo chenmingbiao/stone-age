@@ -1,0 +1,10 @@
+entype:2
+askbattlemsg1:绑在袋口的绳子
+askbattlemsg2:用切绳石把它割开吗？
+startmsg:宝袋口打开了之后恐龙从里面飞了出来！
+item:2697
+dieact:0
+enemyno:1117,1117,1117,1117,1117,1117,1117,1117,1117,1117
+deniedmsg:袋口被牢牢的绑起来，要拿里面的东西并不是那么简单的。
+time:60
+

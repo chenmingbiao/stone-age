@@ -1,0 +1,12 @@
+entype:2
+askbattlemsg1:那、那是我们的脚印…
+askbattlemsg2:被发现了就没办法了。
+askbattlemsg3:过来！抢走它！！
+startmsg:嘿嘿嘿。现在才道歉已经太晚了。
+dieact:0
+item:2431
+end msg:畜、畜生…
+enemyno:513,516
+deniedmsg:你做什么？我可是很忙的。到那边去。真是麻烦的家伙…。
+time:300
+

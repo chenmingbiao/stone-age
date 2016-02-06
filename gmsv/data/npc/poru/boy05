@@ -1,0 +1,15 @@
+NomalMainMsg:我的肚子好饿啊...可以给我巴朵兰恩的肉吗？
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM=2248,ITEM=2249,ITEM=2250,ITEM=2251,ITEM=2252,ITEM=2253
+StopMsg:啊～你不给我吃啊....
+NoStopMsg:赶快给我吧....我好饿啊....
+EndStopMsg:我好饿啊....求求你给我吃吧....
+AcceptMsg:你有巴朵兰恩的肉啊？\n赶快给我吃吧！\n我已经有一段时间没有吃东西了...\n好饿啊～
+ThanksMsg1:太好了！我可以不用饿肚子了！\n对了，我这个海滩可以找到不可思议的贝壳，反正我也用不到，不如送给你好了！\n我想你应该会比较需要吧！！
+ItemFullMsg:啊～你的道具好像太多了哦～我的不可思议的贝壳不能给你耶！！
+GetItem:2414
+DelItem:2248,2249,2250,2251,2252,2253
+EventEnd
+

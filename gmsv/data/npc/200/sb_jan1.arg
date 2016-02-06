@@ -1,0 +1,12 @@
+entype:2
+askbattlemsg1:啊、又见面了。
+askbattlemsg2:你要和我们决斗吗？
+startmsg:那就让我看看你的本事吧。
+dieact:1
+warpfl:20607
+warpx:36
+warpy:31
+end msg:
+enemyno:961,963,962
+deniedmsg:我是玛裘菈、强恩一族的族长。请多指教！
+

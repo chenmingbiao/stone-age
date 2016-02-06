@@ -1,0 +1,13 @@
+NEWWARPMAN
+
+NOFREE
+FREE:LV>0
+NomalMsg:你已经答莱哈恩先生的请求了吗？
+PartyMsg:如果是舱成团钉我无法带烩你前进。
+OVER
+
+TALKEVENT1
+WARP:31910,10,14
+FREE:ENDEV=4&NOWEV=29&ENDEV=30&NOWEV=54&ITEM=2548
+FreeMsg:让我带烩你到‘真知之间’吧。
+OVER

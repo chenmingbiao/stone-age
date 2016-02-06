@@ -1,0 +1,21 @@
+###########################################################
+#坤肠面の术娶GET　　　　　　　　　　　　　　　　　　　　  #
+# 			サイナス试		么碰¨谰幂#
+###########################################################
+
+NomalMainMsg:庆祝石器时代周年庆！
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:ITEM!=13030
+AcceptMsg:\n\n庆祝石器时代周年庆，免费赠送特制生日蛋糕一个。\n\n想要生日蛋糕吗？
+ThanksMsg:\n\n\n拿到了一个生日蛋糕。
+ItemFullMsg:\n\n\n所持物太多无法收下的样子。
+GetItem:13030
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=13030
+NomalWindowMsg:\n\n特制生日蛋糕一人一个，请慢慢享用。
+EventEnd

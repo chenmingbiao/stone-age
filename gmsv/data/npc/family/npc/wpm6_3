@@ -1,0 +1,21 @@
+########　地城庄园商店守门员(专属二)　########
+
+NEWWARPMAN
+
+NOFREE
+FREE:LV>0
+WARP:0,0,0
+NomalMsg:我是商店警卫！这里是庄园封闭式商店，想进入必须是拥有此庄园家族的族人才可以通行。
+PartyMsg:无法以团队入场。\n\n请把团队解散之后再个别入场。
+OVER
+
+
+###　家族成员　###
+TALKEVENT1
+FREE:LV>0&MANOR=5
+WARP:6037,5,9
+FreeMsg:\n我是商店警卫！你要进入吗？
+PartyMsg:无法以团队入场。\n\n请把团队解散之后再个别入场。
+OVER
+
+

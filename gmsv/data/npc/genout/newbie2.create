@@ -1,0 +1,52 @@
+#NPCCREATE
+
+
+
+######　工作验收　######
+#{
+#name=长毛象快递老板
+#floorid=1014
+#borncenter=14,20
+#dir=7
+#createnum=1
+#ignoreinvincible=1
+#graphicname=16018
+#enemy=npcgen_warpman|file:sa60/newbie/worksell.conf
+#}
+#
+#
+#######　工作验收　######
+#{
+#name=长毛象快递老板
+#floorid=2014
+#borncenter=16,16
+#dir=4
+#createnum=1
+#ignoreinvincible=1
+#graphicname=16092
+#enemy=npcgen_warpman|file:sa60/newbie/worksell.conf
+#}
+#
+#######　工作验收　######
+#{
+#name=长毛象快递老板
+#floorid=3014
+#borncenter=16,16
+#dir=4
+#createnum=1
+#ignoreinvincible=1
+#graphicname=16092
+#enemy=npcgen_warpman|file:sa60/newbie/worksell.conf
+#}
+#
+#######　工作验收　######
+#{
+#name=长毛象快递老板
+#floorid=4014
+#borncenter=19,16
+#dir=7
+#createnum=1
+#ignoreinvincible=1
+#graphicname=16018
+#enemy=npcgen_warpman|file:sa60/newbie/worksell.conf
+#}

@@ -1,0 +1,12 @@
+entype:2
+askbattlemsg1:我们就是有名的山贼三人组。
+askbattlemsg2:我们可不会手下留情哦！
+startmsg:玛裘菈大人请动手吧！
+dieact:1
+warpfl:20607
+warpx:36
+warpy:31
+end msg:
+enemyno:961,963,962
+deniedmsg:在正中央的是玛裘菈大人，在左边的是卡尔德，然后我是波翁。
+

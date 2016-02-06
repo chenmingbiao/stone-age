@@ -1,0 +1,19 @@
+NPCCREATE
+
+#########################################################
+#########    ヒューボGET　イベント設定　　###############
+#########################################################
+
+
+{
+floorid=100
+borncorner=230,180,525,200
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16033
+name=触鵡
+enemy=changeevent|file:seimu/event/event02_1
+}
+

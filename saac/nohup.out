@@ -1,0 +1,100 @@
+´æÖüÆ÷³õÊ¼»¯¶Ë¿Ú:9300
+ÃÜÂë:test
+ÈÕÖ¾Ä¿Â¼:log
+µµ°¸Ä¿Â¼:char
+Ë¯ÃßÄ¿Â¼:char_sleep
+ÓÊ¼şÄ¿Â¼:mail
+¼Ò×åÄ¿Â¼:data/family
+×¯Ô°±íÁĞ:data/fmpointdir
+¼Ò×å±¸·İ:data/fmsmemodir
+¸üĞÂÈËÎïµãÊı¼ä¸ô:3600Ãë
+¸üĞÂ¹ıÆÚÓÊ¼ş¼ä¸ô:600Ãë
+É¾³ı¼Ò×å³ÉÔ±¼ä¸ô:3600Ãë
+¸üĞÂ¼Ò×åĞÅÏ¢¼ä¸ô:600Ãë
+¶ÁÈ¡Êı¾İÄ¿Â¼
+¶ÁÈ¡ ¼Ò×å×¯Ô°
+¶ÁÈ¡ ¼Ò×åÁôÑÔ
+¶ÁÈ¡ ¼Ò×åÄ¿Â¼
+×¼±¸ µµ°¸Ä¿Â¼
+×¼±¸ ÈÕÖ¾Ä¿Â¼
+×¼±¸ ÓÊ¼şÄ¿Â¼
+×¼±¸ Ë¯Ãßµµ°¸Ä¿Â¼
+¶ÁÈ¡ÓÊ¼ş: ÔÚ'mail'Ä¿Â¼Àï¶ÁÈ¡µ½ 0 ·âÓÊ¼ş 
+
+
+·şÎñ¶Ë°æ±¾: <Áúzoro°æSAAC·şÎñ¶Ëv2.3.12.31 for WIN ÄêÎ´°æ »áÔ±°æ>
+
+·şÎñ¶Ë±àÒëÍê³ÉÊ±¼ä:Feb  6 2013 15:47:42 by Áúzoro¹¤×÷ÊÒ
+
+¿ªÊ¼¹¤×÷...
+i can accept Í¬Òâ: 6
+ÉèÖÃÑÓ³Ù: fd:6
+Í¬Òâ: 1
+·şÎñÆ÷ÃÜÂëÕıÈ· æåº¦1çº¿
+µÃµ½Ò»¸öĞÅºÅ! Òì³£ÖĞ¶Ï......
+
+Êı¾İ¿âµØÖ·£º  127.0.0.1
+Êı¾İ¿â¶Ë¿Ú£º  3306
+Êı¾İ¿âÓÃ»§£º  root
+Êı¾İ¿âÃÜÂë£º  Qq120848369
+µÇÂ½Êı¾İ¿âÃû£ºsa
+ÓÃ»§ĞÅÏ¢±íÃû£º  user_table
+ÓÃ»§Ëø¶¨±íÃû£º  user_lock
+ÕËºÅ×Ö¶ÎÃû³Æ£º  Name
+ÃÜÂë×Ö¶ÎÃû³Æ£º  Pass
+¿ª·Å×Ô¶¯×¢²á£ºYESip=127.0.0.1 id=root ps=Qq120848369 database=sa port=3306
+mysql_real_connect=ok Êı¾İ¿âÁ¬½Ó³É¹¦£¡
+
+sql=select * from user_lock where Name=BINARY'1111'
+¸ÃÕËºÅ1111½ûÖ¹µÇÂ½!
+
+sql=select * from user_lock where Name=BINARY'1111'
+
+sql=select * from user_lock where Name=BINARY'61.135.169.77'
+
+sql=select * from user_table where Name=BINARY'1111'
+
+mysql_query=fail Êı¾İ¿â²éÕÒÊ§°Ü£¡
+
+reconnect_db=yes ÖØĞÂÁ¬½ÓÊı¾İ¿â...
+
+Êı¾İ¿âµØÖ·£º  127.0.0.1
+Êı¾İ¿â¶Ë¿Ú£º  3306
+Êı¾İ¿âÓÃ»§£º  root
+Êı¾İ¿âÃÜÂë£º  Qq120848369
+µÇÂ½Êı¾İ¿âÃû£ºsa
+ÓÃ»§ĞÅÏ¢±íÃû£º  user_table
+ÓÃ»§Ëø¶¨±íÃû£º  user_lock
+ÕËºÅ×Ö¶ÎÃû³Æ£º  Name
+ÃÜÂë×Ö¶ÎÃû³Æ£º  Pass
+¿ª·Å×Ô¶¯×¢²á£ºYESip=127.0.0.1 id=root ps=Qq120848369 database=sa port=3306
+mysql_real_connect=ok Êı¾İ¿âÁ¬½Ó³É¹¦£¡
+Íê³É
+res:0
+
+sql=select * from user_lock where Name=BINARY'1111'
+¸ÃÕËºÅ1111½ûÖ¹µÇÂ½!
+
+sql=select * from user_lock where Name=BINARY'1111'
+
+sql=select * from user_lock where Name=BINARY'61.135.169.77'
+
+sql=select * from user_table where Name=BINARY'1111'
+
+mysql_query=fail Êı¾İ¿â²éÕÒÊ§°Ü£¡
+
+reconnect_db=yes ÖØĞÂÁ¬½ÓÊı¾İ¿â...
+
+Êı¾İ¿âµØÖ·£º  127.0.0.1
+Êı¾İ¿â¶Ë¿Ú£º  3306
+Êı¾İ¿âÓÃ»§£º  root
+Êı¾İ¿âÃÜÂë£º  Qq120848369
+µÇÂ½Êı¾İ¿âÃû£ºsa
+ÓÃ»§ĞÅÏ¢±íÃû£º  user_table
+ÓÃ»§Ëø¶¨±íÃû£º  user_lock
+ÕËºÅ×Ö¶ÎÃû³Æ£º  Name
+ÃÜÂë×Ö¶ÎÃû³Æ£º  Pass
+¿ª·Å×Ô¶¯×¢²á£ºYESip=127.0.0.1 id=root ps=Qq120848369 database=sa port=3306
+mysql_real_connect=ok Êı¾İ¿âÁ¬½Ó³É¹¦£¡
+Íê³É
+res:0

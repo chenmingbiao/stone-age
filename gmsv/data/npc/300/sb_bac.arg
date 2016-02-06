@@ -1,0 +1,12 @@
+entype:2
+askbattlemsg1:咦？那是比赛的参加证吧。
+askbattlemsg2:你是来和我比赛的吧？
+startmsg:你就是我的对手吗？哈哈哈，你觉悟吧！
+dieact:0
+item:2535
+steal:1
+end msg:
+enemyno:1004
+deniedmsg:你是什么人？闲杂人等闪一边去！
+time:300
+

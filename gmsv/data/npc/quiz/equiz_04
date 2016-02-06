@@ -1,0 +1,27 @@
+###########################################
+#クイズさん坊娘　 アイテム减け畔しイベント#
+# 	マスタ〖の娘灰肋年	么碰¨谰幂#
+###########################################
+
+NomalMainMsg:你也以猜谜大师为目标吧！
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=47
+NomalWindowMsg:\n哎呀、很像可以赢过猜谜大师的样子！\n现在猜谜大师正在努力的修行喔\n到那个时候还可能Power　Up呢。\n可要先做好觉悟喔～。
+EventEnd
+
+
+
+EventNo:47
+TYPE:ACCEPT
+EVENT:ENDEV=44&NOWEV=47&ITEM=2759
+AcceptMsg:\n\n哇～这不是猜谜大师的谜之箱吗？\n你真的是太利害了～～\n那么，我们赶快把这箱子打开吧！
+ThanksMsg:\n锵～～\n想不到谜之箱中竟然是左迪洛斯？？\n你可要好好的细心养育它唷～
+PetFullMsg:\n\n因为宠物太多而无法交给你喔。\n能否把宠物的数量减少之后再来呢？
+GetPet:351
+DelItem:2759
+EndSetFlg:47
+EventEnd
+

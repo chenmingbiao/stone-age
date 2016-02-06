@@ -1,0 +1,13 @@
+entype:2
+askbattlemsg1:接下来只有具备知识与力量的人才能进入 。
+askbattlemsg2:就让我来试探看看，
+askbattlemsg3:你有没有具备足以前进的力量吧。
+start msg:
+dieact:1
+warpfl:32011
+warpx:56
+warpy:36
+end msg:
+enemyno:1399,1401,1402,1400,1403
+deniedmsg: 你好像没有打倒我，然后继续前进的资格哦。
+onebattle:0

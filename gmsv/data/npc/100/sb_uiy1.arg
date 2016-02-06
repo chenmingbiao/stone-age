@@ -1,0 +1,13 @@
+entype:2
+askbattlemsg1:只有我们三兄弟承认的人
+askbattlemsg2:才能继续向前进。
+askbattlemsg3:你要试试看吗？
+startmsg:来、决胜负吧！
+dieact:1
+warpfl:10007
+warpx:29
+warpy:37
+end msg:
+enemyno:294,295,296,297,298
+deniedmsg:稍等一下哦。
+

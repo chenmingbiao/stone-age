@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:要将这个岩石移开吗？
+star tmsg:
+dieact:0
+end msg:
+enemyno:722,512,512,508,508
+deniedmsg:现在不要接近比较好。
+alreadymsg:现在不要接近比较好。
+time:300
+onebattle:1
+

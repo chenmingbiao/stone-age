@@ -1,0 +1,15 @@
+entype:2
+askbattlemsg1:哈哈哈，终于来了，我的对手就是你吗？
+askbattlemsg2:听说有人类跑到天空之岛来，我还担心走不到这儿呢？
+askbattlemsg3:在这天空之岛守了几千年，都没人陪我玩玩，真是无聊死了。
+askbattlemsg4:来比划一下吧！
+startmsg:火守护费尔叶就是我，让你尝尝火的威力！
+dieact:1
+warpfl:30698
+warpx:14
+warpy:14
+endmsg:怎么可能…
+enemyno:1688,1679,1679,1679,1679,1679,1679,1679,1679,1679
+deniedmsg:你是谁啊？趁我心情还好的时候快滚！
+alreadymsg:想找死啊？马上就轮到你了！
+onebattle:1

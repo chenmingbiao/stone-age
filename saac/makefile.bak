@@ -1,0 +1,449 @@
+export CC=gcc
+export RM=rm -f
+export AR=ar cr
+export MV=mv
+export RANLIB=ranlib
+export SED=sed
+
+export SHELL=/bin/sh
+
+#
+# Edit by ringo 19980606
+# 19990723
+#
+#
+#
+
+INCFLAGS=-I. -I./include
+
+CFLAGS=-O3 -w $(INCFLAGS)
+#Pentium 4 (Intel)
+#CFLAGS=-march=pentium4 -O3 -pipe -fomit-frame-pointer $(INCFLAGS)
+#Athlon XP (AMD)
+#CFLAGS="-march=athlon-xp -O3 -pipe -fomit-frame-pointer" $(INCFLAGS)
+#Athlon64：
+#CFLAGS="-O2 -march=athlon64 -ftracer -fprefetch-loop-arrays -pipe" $(INCFLAGS)
+
+#加入mysql资料库功能
+MYSQL= -lodbc32 -lz
+
+TOP=../..
+PROG = ./saacjt.exe
+SHELL = /bin/sh
+PERL=/usr/bin/perl
+
+RPCGEN=${TOP}/bin/lsgen.perl
+
+RPCHTML = ${TOP}/doc/saacproto.html
+#RPCSRC = saacproto_serv.c saacproto_util.csaacproto_sup.c 
+RPCSRC = saacproto_serv.c saacproto_util.c 
+RPCINCLUDE = saacproto_serv.h saacproto_util.h mac.h
+RPCNOUSE = saacproto_cli.c saacproto_cli.h
+
+#加入mysql资料库功能
+SRC = main.c recv.c util.c char.c db.c mail.c acfamily.c lock.c sasql.c $(RPCSRC)
+#SRC = main.c recv.c util.c char.c db.c mail.c acfamily.c lock.c $(RPCSRC)
+
+OBJ=$(SRC:.c=.o)
+
+${PROG} : $(RPCSRC) $(OBJ)
+	$(CC) $(CFLAGS) -o $(PROG) $(OBJ) $(MYSQL)
+
+dos2unix:
+	dos2unix $(SRC) ./include/*.h makefile
+
+chmod:
+	chmod 777 $(SRC) ./include/*.h makefile
+
+depend: $(RPCSRC) $(ANIMDATAFILE)
+	$(MV) makefile makefile.bak
+	$(SED) -ne '1,/^# DO NOT DELETE THIS LINE/p' makefile.bak>makefile
+	$(CC) $(INCFLAGS) -M $(SRC) >> makefile 
+	
+clean:
+	$(RM) $(PROG)
+	$(RM) $(OBJ)
+	$(RM) *~
+
+distclean:
+	$(RM) $(CLIRPCSRC)
+	$(RM) $(CLIRPCINCLUDE)
+	$(RM) $(SERVRPCSRC)
+	$(RM) $(SERVRPCINCLUDE)
+	$(RM) $(ANIMDATAFILE)
+	$(RM) include/*~
+
+	$(RM) $(PROG)
+	$(RM) $(OBJ)
+	$(RM) *~
+
+	$(MV) Makefile Makefile.bak
+	$(SED) -ne '1,/^# DO NOT DELETE THIS LINE/p' Makefile.bak>Makefile
+	$(RM) Makefile.bak
+
+rpc : ${RPCHTML} ${RPCGEN}
+	$(PERL) ${RPCGEN} ${RPCHTML} -h . -o .
+	rm -f ${RPCNOUSE}
+
+# DO NOT DELETE THIS LINE
+main.o: main.c ./include/main.h /usr/include/stdio.h /usr/include/_ansi.h \
+  /usr/include/newlib.h /usr/include/sys/config.h \
+  /usr/include/machine/ieeefp.h /usr/include/cygwin/config.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stddef.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stdarg.h \
+  /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+  /usr/include/sys/lock.h /usr/include/sys/types.h \
+  /usr/include/machine/_types.h /usr/include/machine/types.h \
+  /usr/include/sys/features.h /usr/include/cygwin/types.h \
+  /usr/include/sys/sysmacros.h /usr/include/stdint.h \
+  /usr/include/sys/stdio.h /usr/include/stdlib.h \
+  /usr/include/machine/stdlib.h /usr/include/alloca.h \
+  /usr/include/netinet/in.h /usr/include/cygwin/in.h \
+  /usr/include/asm/byteorder.h /usr/include/arpa/inet.h \
+  /usr/include/netdb.h /usr/include/sys/socket.h /usr/include/features.h \
+  /usr/include/sys/cdefs.h /usr/include/cygwin/socket.h \
+  /usr/include/asm/socket.h /usr/include/cygwin/if.h \
+  /usr/include/cygwin/sockios.h /usr/include/cygwin/uio.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/machine/time.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/cygwin/signal.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/getopt.h \
+  /usr/include/strings.h /usr/include/string.h /usr/include/sys/string.h \
+  /usr/include/errno.h /usr/include/sys/errno.h ./include/version.h \
+  ./include/util.h ./include/mail.h ./include/db.h \
+  ./include/saacproto_util.h ./include/saacproto_serv.h \
+  ./include/saacproto_util.h ./include/acfamily.h ./include/version.h \
+  ./include/recv.h ./include/acfamily.h ./include/char.h \
+  ./include/sasql.h /usr/include/sys/wait.h /usr/include/sys/resource.h \
+  /usr/include/malloc.h /usr/include/machine/malloc.h \
+  /usr/include/fcntl.h /usr/include/sys/fcntl.h /usr/include/sys/stat.h \
+  /usr/include/cygwin/stat.h /usr/include/netinet/tcp.h ./include/lock.h
+recv.o: recv.c ./include/version.h ./include/main.h /usr/include/stdio.h \
+  /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+  /usr/include/machine/ieeefp.h /usr/include/cygwin/config.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stddef.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stdarg.h \
+  /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+  /usr/include/sys/lock.h /usr/include/sys/types.h \
+  /usr/include/machine/_types.h /usr/include/machine/types.h \
+  /usr/include/sys/features.h /usr/include/cygwin/types.h \
+  /usr/include/sys/sysmacros.h /usr/include/stdint.h \
+  /usr/include/sys/stdio.h /usr/include/stdlib.h \
+  /usr/include/machine/stdlib.h /usr/include/alloca.h \
+  /usr/include/netinet/in.h /usr/include/cygwin/in.h \
+  /usr/include/asm/byteorder.h /usr/include/arpa/inet.h \
+  /usr/include/netdb.h /usr/include/sys/socket.h /usr/include/features.h \
+  /usr/include/sys/cdefs.h /usr/include/cygwin/socket.h \
+  /usr/include/asm/socket.h /usr/include/cygwin/if.h \
+  /usr/include/cygwin/sockios.h /usr/include/cygwin/uio.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/machine/time.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/cygwin/signal.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/getopt.h \
+  /usr/include/strings.h /usr/include/string.h /usr/include/sys/string.h \
+  /usr/include/errno.h /usr/include/sys/errno.h ./include/version.h \
+  ./include/saacproto_util.h ./include/saacproto_serv.h \
+  ./include/saacproto_util.h ./include/recv.h ./include/acfamily.h \
+  ./include/char.h ./include/db.h ./include/mail.h ./include/lock.h \
+  ./include/util.h ./include/sasql.h ./include/acfamily.h
+util.o: util.c /usr/include/sys/types.h /usr/include/_ansi.h \
+  /usr/include/newlib.h /usr/include/sys/config.h \
+  /usr/include/machine/ieeefp.h /usr/include/cygwin/config.h \
+  /usr/include/machine/_types.h /usr/include/sys/_types.h \
+  /usr/include/sys/lock.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stddef.h \
+  /usr/include/machine/types.h /usr/include/sys/features.h \
+  /usr/include/cygwin/types.h /usr/include/sys/sysmacros.h \
+  /usr/include/stdint.h /usr/include/sys/socket.h /usr/include/features.h \
+  /usr/include/sys/cdefs.h /usr/include/cygwin/socket.h \
+  /usr/include/asm/socket.h /usr/include/cygwin/if.h \
+  /usr/include/cygwin/sockios.h /usr/include/cygwin/uio.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/_ansi.h /usr/include/sys/reent.h \
+  /usr/include/machine/time.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/cygwin/signal.h \
+  /usr/include/sys/stat.h /usr/include/cygwin/stat.h \
+  /usr/include/netinet/in.h /usr/include/cygwin/in.h \
+  /usr/include/asm/byteorder.h /usr/include/arpa/inet.h \
+  /usr/include/stdio.h /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stdarg.h \
+  /usr/include/sys/stdio.h /usr/include/string.h \
+  /usr/include/sys/string.h /usr/include/stdlib.h \
+  /usr/include/machine/stdlib.h /usr/include/alloca.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/getopt.h \
+  /usr/include/dirent.h /usr/include/sys/dirent.h /usr/include/netdb.h \
+  /usr/include/errno.h /usr/include/sys/errno.h /usr/include/ctype.h \
+  ./include/main.h /usr/include/strings.h ./include/version.h \
+  ./include/util.h
+char.o: char.c /usr/include/time.h /usr/include/_ansi.h \
+  /usr/include/newlib.h /usr/include/sys/config.h \
+  /usr/include/machine/ieeefp.h /usr/include/cygwin/config.h \
+  /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+  /usr/include/sys/lock.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stddef.h \
+  /usr/include/machine/time.h /usr/include/sys/types.h \
+  /usr/include/machine/_types.h /usr/include/machine/types.h \
+  /usr/include/sys/features.h /usr/include/cygwin/types.h \
+  /usr/include/sys/sysmacros.h /usr/include/stdint.h \
+  /usr/include/signal.h /usr/include/sys/signal.h \
+  /usr/include/cygwin/signal.h /usr/include/stdio.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stdarg.h \
+  /usr/include/sys/stdio.h /usr/include/sys/stat.h \
+  /usr/include/cygwin/stat.h /usr/include/fcntl.h \
+  /usr/include/sys/fcntl.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/getopt.h ./include/main.h \
+  /usr/include/stdlib.h /usr/include/machine/stdlib.h \
+  /usr/include/alloca.h /usr/include/netinet/in.h \
+  /usr/include/cygwin/in.h /usr/include/asm/byteorder.h \
+  /usr/include/arpa/inet.h /usr/include/netdb.h /usr/include/sys/socket.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/cygwin/socket.h /usr/include/asm/socket.h \
+  /usr/include/cygwin/if.h /usr/include/cygwin/sockios.h \
+  /usr/include/cygwin/uio.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/strings.h /usr/include/string.h \
+  /usr/include/sys/string.h /usr/include/errno.h /usr/include/sys/errno.h \
+  ./include/version.h ./include/char.h ./include/saacproto_serv.h \
+  ./include/saacproto_util.h ./include/util.h ./include/acfamily.h \
+  ./include/version.h ./include/lock.h ./include/recv.h \
+  ./include/acfamily.h ./include/sasql.h
+db.o: db.c ./include/db.h ./include/main.h /usr/include/stdio.h \
+  /usr/include/_ansi.h /usr/include/newlib.h /usr/include/sys/config.h \
+  /usr/include/machine/ieeefp.h /usr/include/cygwin/config.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stddef.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stdarg.h \
+  /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+  /usr/include/sys/lock.h /usr/include/sys/types.h \
+  /usr/include/machine/_types.h /usr/include/machine/types.h \
+  /usr/include/sys/features.h /usr/include/cygwin/types.h \
+  /usr/include/sys/sysmacros.h /usr/include/stdint.h \
+  /usr/include/sys/stdio.h /usr/include/stdlib.h \
+  /usr/include/machine/stdlib.h /usr/include/alloca.h \
+  /usr/include/netinet/in.h /usr/include/cygwin/in.h \
+  /usr/include/asm/byteorder.h /usr/include/arpa/inet.h \
+  /usr/include/netdb.h /usr/include/sys/socket.h /usr/include/features.h \
+  /usr/include/sys/cdefs.h /usr/include/cygwin/socket.h \
+  /usr/include/asm/socket.h /usr/include/cygwin/if.h \
+  /usr/include/cygwin/sockios.h /usr/include/cygwin/uio.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/machine/time.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/cygwin/signal.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/getopt.h \
+  /usr/include/strings.h /usr/include/string.h /usr/include/sys/string.h \
+  /usr/include/errno.h /usr/include/sys/errno.h ./include/version.h \
+  ./include/util.h ./include/version.h /usr/include/dirent.h \
+  /usr/include/sys/dirent.h /usr/include/sys/stat.h \
+  /usr/include/cygwin/stat.h
+mail.o: mail.c ./include/main.h /usr/include/stdio.h /usr/include/_ansi.h \
+  /usr/include/newlib.h /usr/include/sys/config.h \
+  /usr/include/machine/ieeefp.h /usr/include/cygwin/config.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stddef.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stdarg.h \
+  /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+  /usr/include/sys/lock.h /usr/include/sys/types.h \
+  /usr/include/machine/_types.h /usr/include/machine/types.h \
+  /usr/include/sys/features.h /usr/include/cygwin/types.h \
+  /usr/include/sys/sysmacros.h /usr/include/stdint.h \
+  /usr/include/sys/stdio.h /usr/include/stdlib.h \
+  /usr/include/machine/stdlib.h /usr/include/alloca.h \
+  /usr/include/netinet/in.h /usr/include/cygwin/in.h \
+  /usr/include/asm/byteorder.h /usr/include/arpa/inet.h \
+  /usr/include/netdb.h /usr/include/sys/socket.h /usr/include/features.h \
+  /usr/include/sys/cdefs.h /usr/include/cygwin/socket.h \
+  /usr/include/asm/socket.h /usr/include/cygwin/if.h \
+  /usr/include/cygwin/sockios.h /usr/include/cygwin/uio.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/machine/time.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/cygwin/signal.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/getopt.h \
+  /usr/include/strings.h /usr/include/string.h /usr/include/sys/string.h \
+  /usr/include/errno.h /usr/include/sys/errno.h ./include/version.h \
+  ./include/mail.h ./include/util.h ./include/saacproto_serv.h \
+  ./include/saacproto_util.h /usr/include/malloc.h \
+  /usr/include/machine/malloc.h /usr/include/dirent.h \
+  /usr/include/sys/dirent.h /usr/include/sys/stat.h \
+  /usr/include/cygwin/stat.h
+acfamily.o: acfamily.c ./include/version.h ./include/main.h \
+  /usr/include/stdio.h /usr/include/_ansi.h /usr/include/newlib.h \
+  /usr/include/sys/config.h /usr/include/machine/ieeefp.h \
+  /usr/include/cygwin/config.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stddef.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stdarg.h \
+  /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+  /usr/include/sys/lock.h /usr/include/sys/types.h \
+  /usr/include/machine/_types.h /usr/include/machine/types.h \
+  /usr/include/sys/features.h /usr/include/cygwin/types.h \
+  /usr/include/sys/sysmacros.h /usr/include/stdint.h \
+  /usr/include/sys/stdio.h /usr/include/stdlib.h \
+  /usr/include/machine/stdlib.h /usr/include/alloca.h \
+  /usr/include/netinet/in.h /usr/include/cygwin/in.h \
+  /usr/include/asm/byteorder.h /usr/include/arpa/inet.h \
+  /usr/include/netdb.h /usr/include/sys/socket.h /usr/include/features.h \
+  /usr/include/sys/cdefs.h /usr/include/cygwin/socket.h \
+  /usr/include/asm/socket.h /usr/include/cygwin/if.h \
+  /usr/include/cygwin/sockios.h /usr/include/cygwin/uio.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/machine/time.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/cygwin/signal.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/getopt.h \
+  /usr/include/strings.h /usr/include/string.h /usr/include/sys/string.h \
+  /usr/include/errno.h /usr/include/sys/errno.h ./include/version.h \
+  ./include/acfamily.h ./include/util.h ./include/saacproto_serv.h \
+  ./include/saacproto_util.h /usr/include/malloc.h \
+  /usr/include/machine/malloc.h /usr/include/dirent.h \
+  /usr/include/sys/dirent.h /usr/include/sys/stat.h \
+  /usr/include/cygwin/stat.h
+lock.o: lock.c /usr/include/stdio.h /usr/include/_ansi.h \
+  /usr/include/newlib.h /usr/include/sys/config.h \
+  /usr/include/machine/ieeefp.h /usr/include/cygwin/config.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stddef.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stdarg.h \
+  /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+  /usr/include/sys/lock.h /usr/include/sys/types.h \
+  /usr/include/machine/_types.h /usr/include/machine/types.h \
+  /usr/include/sys/features.h /usr/include/cygwin/types.h \
+  /usr/include/sys/sysmacros.h /usr/include/stdint.h \
+  /usr/include/sys/stdio.h /usr/include/stdlib.h \
+  /usr/include/machine/stdlib.h /usr/include/alloca.h ./include/lock.h \
+  ./include/version.h ./include/main.h /usr/include/netinet/in.h \
+  /usr/include/cygwin/in.h /usr/include/asm/byteorder.h \
+  /usr/include/arpa/inet.h /usr/include/netdb.h /usr/include/sys/socket.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/cygwin/socket.h /usr/include/asm/socket.h \
+  /usr/include/cygwin/if.h /usr/include/cygwin/sockios.h \
+  /usr/include/cygwin/uio.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/machine/time.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/cygwin/signal.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/getopt.h \
+  /usr/include/strings.h /usr/include/string.h /usr/include/sys/string.h \
+  /usr/include/errno.h /usr/include/sys/errno.h ./include/char.h
+sasql.o: sasql.c ./include/version.h ./include/main.h \
+  /usr/include/stdio.h /usr/include/_ansi.h /usr/include/newlib.h \
+  /usr/include/sys/config.h /usr/include/machine/ieeefp.h \
+  /usr/include/cygwin/config.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stddef.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stdarg.h \
+  /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+  /usr/include/sys/lock.h /usr/include/sys/types.h \
+  /usr/include/machine/_types.h /usr/include/machine/types.h \
+  /usr/include/sys/features.h /usr/include/cygwin/types.h \
+  /usr/include/sys/sysmacros.h /usr/include/stdint.h \
+  /usr/include/sys/stdio.h /usr/include/stdlib.h \
+  /usr/include/machine/stdlib.h /usr/include/alloca.h \
+  /usr/include/netinet/in.h /usr/include/cygwin/in.h \
+  /usr/include/asm/byteorder.h /usr/include/arpa/inet.h \
+  /usr/include/netdb.h /usr/include/sys/socket.h /usr/include/features.h \
+  /usr/include/sys/cdefs.h /usr/include/cygwin/socket.h \
+  /usr/include/asm/socket.h /usr/include/cygwin/if.h \
+  /usr/include/cygwin/sockios.h /usr/include/cygwin/uio.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/machine/time.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/cygwin/signal.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/getopt.h \
+  /usr/include/strings.h /usr/include/string.h /usr/include/sys/string.h \
+  /usr/include/errno.h /usr/include/sys/errno.h ./include/version.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/windows.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/windef.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/winnt.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/winerror.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/basetsd.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/pshpack4.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/poppack.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/wincon.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/winbase.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/wingdi.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/winuser.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/winnls.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/winver.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/winnetwk.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/winreg.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/winsvc.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/cderr.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/dde.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/ddeml.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/dlgs.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/imm.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/lzexpand.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/mmsystem.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/nb30.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/rpc.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/rpcdce.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/basetyps.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/rpcdcep.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/rpcnsi.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/rpcnterr.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/shellapi.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/pshpack2.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/winperf.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/commdlg.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/winspool.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/ole2.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/objbase.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/rpcndr.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/rpcnsip.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/objfwd.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/wtypes.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/unknwn.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/objidl.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/cguid.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/olectlid.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/oleauto.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/oaidl.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/oleidl.h \
+  /usr/include/w32api/sql.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/sqltypes.h \
+  /usr/include/w32api/sqlext.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/sql.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/sqlucode.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/../../../../include/w32api/sqlext.h
+saacproto_serv.o: saacproto_serv.c ./include/version.h \
+  ./include/saacproto_serv.h ./include/version.h \
+  ./include/saacproto_util.h /usr/include/stdlib.h /usr/include/_ansi.h \
+  /usr/include/newlib.h /usr/include/sys/config.h \
+  /usr/include/machine/ieeefp.h /usr/include/cygwin/config.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stddef.h \
+  /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+  /usr/include/sys/lock.h /usr/include/machine/stdlib.h \
+  /usr/include/alloca.h /usr/include/string.h /usr/include/sys/string.h \
+  /usr/include/strings.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+  /usr/include/sys/types.h /usr/include/machine/_types.h \
+  /usr/include/machine/types.h /usr/include/sys/features.h \
+  /usr/include/cygwin/types.h /usr/include/sys/sysmacros.h \
+  /usr/include/stdint.h /usr/include/getopt.h ./include/main.h \
+  /usr/include/stdio.h /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stdarg.h \
+  /usr/include/sys/stdio.h /usr/include/netinet/in.h \
+  /usr/include/cygwin/in.h /usr/include/asm/byteorder.h \
+  /usr/include/arpa/inet.h /usr/include/netdb.h /usr/include/sys/socket.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/cygwin/socket.h /usr/include/asm/socket.h \
+  /usr/include/cygwin/if.h /usr/include/cygwin/sockios.h \
+  /usr/include/cygwin/uio.h /usr/include/sys/time.h \
+  /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/machine/time.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/cygwin/signal.h \
+  /usr/include/errno.h /usr/include/sys/errno.h
+saacproto_util.o: saacproto_util.c ./include/version.h \
+  /usr/include/stdio.h /usr/include/_ansi.h /usr/include/newlib.h \
+  /usr/include/sys/config.h /usr/include/machine/ieeefp.h \
+  /usr/include/cygwin/config.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stddef.h \
+  /usr/lib/gcc/i686-pc-cygwin/3.4.4/include/stdarg.h \
+  /usr/include/sys/reent.h /usr/include/_ansi.h /usr/include/sys/_types.h \
+  /usr/include/sys/lock.h /usr/include/sys/types.h \
+  /usr/include/machine/_types.h /usr/include/machine/types.h \
+  /usr/include/sys/features.h /usr/include/cygwin/types.h \
+  /usr/include/sys/sysmacros.h /usr/include/stdint.h \
+  /usr/include/sys/stdio.h /usr/include/stdlib.h \
+  /usr/include/machine/stdlib.h /usr/include/alloca.h \
+  /usr/include/string.h /usr/include/sys/string.h /usr/include/unistd.h \
+  /usr/include/sys/unistd.h /usr/include/getopt.h /usr/include/strings.h \
+  ./include/main.h /usr/include/netinet/in.h /usr/include/cygwin/in.h \
+  /usr/include/asm/byteorder.h /usr/include/arpa/inet.h \
+  /usr/include/netdb.h /usr/include/sys/socket.h /usr/include/features.h \
+  /usr/include/sys/cdefs.h /usr/include/cygwin/socket.h \
+  /usr/include/asm/socket.h /usr/include/cygwin/if.h \
+  /usr/include/cygwin/sockios.h /usr/include/cygwin/uio.h \
+  /usr/include/sys/time.h /usr/include/sys/select.h /usr/include/time.h \
+  /usr/include/machine/time.h /usr/include/signal.h \
+  /usr/include/sys/signal.h /usr/include/cygwin/signal.h \
+  /usr/include/errno.h /usr/include/sys/errno.h ./include/version.h \
+  ./include/saacproto_util.h

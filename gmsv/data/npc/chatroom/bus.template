@@ -1,0 +1,14 @@
+NPCTEMPLATE
+#######中元歹月卅布件札↓白田芮##########
+{
+templatename=bus
+makeatnobody=1
+makeatnosee=1
+type=100401
+functionset=Bus
+hp=100
+mp=100
+str=1
+tough=1
+}
+

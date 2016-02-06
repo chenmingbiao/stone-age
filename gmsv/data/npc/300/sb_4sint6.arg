@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:如果你想往前进，就先打倒我吧。
+start msg:
+dieact:1
+warpfl:31606
+warpx:27
+warpy:71
+end msg:
+enemyno:1034,1047,1047,1047,1047
+deniedmsg:········
+

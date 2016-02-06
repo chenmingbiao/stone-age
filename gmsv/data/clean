@@ -1,0 +1,97 @@
+####  清除就職任務標  ####
+
+NomalMainMsg:好想念我的男朋友啊…。
+
+#### 已就職 ####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:CLASS>0
+NomalWindowMsg:嗯嗯，恭喜您已經正式就職了。
+EventEnd
+
+####  解完白狼勇士就職任務但未就職  ####
+EventNo:-1
+TYPE:CLEAN
+EVENT:ENDEV=145&CLASS=0
+CleanFlg:145
+CleanMainMsg:唔，你已經完成了白狼勇士的試鍊，所以你的意思是你後悔了嗎？決定了的話就按下ｏｋ吧，可得想清楚才好。
+CleanFlgMsg:這樣就可以了，你可以再重新選擇想要的職業，這次可得想清楚才行。
+EventEnd
+
+####  解完闇靈法師就職任務但未就職  ####
+EventNo:-1
+TYPE:CLEAN
+EVENT:ENDEV=146&CLASS=0
+CleanFlg:146
+CleanMainMsg:唔，你已經完成了闇靈法師的試鍊，所以你的意思是你後悔了嗎？決定了的話就按下ｏｋ吧，可得想清楚才好。
+CleanFlgMsg:這樣就可以了，你可以再重新選擇想要的職業，這次可得想清楚才行。
+EventEnd
+
+####  解完追獵者就職任務但未就職  ####
+EventNo:-1
+TYPE:CLEAN
+EVENT:ENDEV=147&CLASS=0
+CleanFlg:147
+CleanMainMsg:唔，你已經完成了追獵者的試鍊，所以你的意思是你後悔了嗎？決定了的話就按下ｏｋ吧，可得想清楚才好。
+CleanFlgMsg:這樣就可以了，你可以再重新選擇想要的職業，這次可得想清楚才行。
+EventEnd
+
+####  解白狼勇士就職任務中  ####
+EventNo:-1
+TYPE:CLEAN
+EVENT:NOWEV=145&ITEM=2112
+DelItem:2112
+CleanFlg:145
+CleanMainMsg:唔，你正在接受白狼勇士的試鍊，所以你的意思是你後悔了嗎？決定了的話就按下ｏｋ吧，可得想清楚才好。
+CleanFlgMsg:這樣就可以了，你可以再重新選擇想要的職業，這次可得想清楚才行。
+EventEnd
+
+####  解追獵者就職任務中  ####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=145
+NomalWindowMsg:你後悔了嗎？那好吧，先把那隻寵物還給拉斐爾之後再來找我吧。
+EventEnd
+
+####  解闇靈法師就職任務中  ####
+EventNo:-1
+TYPE:CLEAN
+EVENT:NOWEV=146
+CleanFlg:146
+CleanMainMsg:唔，你正在接受闇靈法師的試鍊，所以你的意思是你後悔了嗎？決定了的話就按下ｏｋ吧，可得想清楚才好。
+CleanFlgMsg:這樣就可以了，你可以再重新選擇想要的職業，這次可得想清楚才行。
+EventEnd
+
+####  解追獵者就職任務中  ####
+EventNo:-1
+TYPE:CLEAN
+EVENT:NOWEV=147
+CleanFlg:147
+CleanMainMsg:唔，你正在接受追獵者的試鍊，所以你的意思是你後悔了嗎？決定了的話就按下ｏｋ吧，可得想清楚才好。
+CleanFlgMsg:這樣就可以了，你可以再重新選擇想要的職業，這次可得想清楚才行。
+EventEnd
+
+#### 全不符 ####
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:問我嗎？喔，我的工作是幫一些草率下決定的人，當他們後悔所選擇的職業，我會幫助他們結束試鍊任務…重新讓他們有選擇的機會，不過只限於還沒就職之前喔，就職了我就沒辦法了。
+EventEnd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

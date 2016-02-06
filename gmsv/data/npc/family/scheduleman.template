@@ -1,0 +1,16 @@
+NPCTEMPLATE
+{
+templatename=scheduleman
+makeatnobody=1
+makeatnosee=1
+type=SPR_sslma_1
+functionset=Scheduleman
+}
+
+{
+templatename=manorsman
+makeatnobody=1
+makeatnosee=1
+type=SPR_sslma_1
+functionset=ManorSman
+}

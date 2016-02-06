@@ -1,0 +1,16 @@
+entype:2
+askbattlemsg1:我是黑暗精灵柯黑穆肯。
+askbattlemsg2:四位守护刚告诉我有人类闯入天空之岛的时候，我还不太敢相信呢。
+askbattlemsg3:没想到你还通过了四位守护的考验而来到这圣殿…
+askbattlemsg4:不过，我是不能让你就这么轻易见到精灵王大人的！
+askbattlemsg5:准备好接受我的挑战了吗？
+startmsg:好！那让你知道我柯黑穆肯的恐怖！
+dieact:1
+warpfl:30670
+warpx:15
+warpy:9
+endmsg:以一个人类的力量竟然可以打倒我柯黑穆肯，真是不可思议…
+enemyno:1691,1688,1687,1689,1686,1678,1679,1677,1680
+deniedmsg:我柯黑穆肯不与无名之辈交手。
+alreadymsg:凡事都有先来后到，不要那么想寻死…
+onebattle:1

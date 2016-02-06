@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:1.5
+buy_msg:你好,引谢谢,打工,工作,帮忙,baito,work,hataraku,送货,送货,货物,货物,nimotu,todoke
+main_msg:谢谢！
+sell_msg:卖,卖,卖,卖,卖,sell,uru
+sell_main:送哪一件货物啊？
+other_msg:暗示
+hint_msg:目前没有。
+sellonly_msg:今天的打工就到此为止。\n不过还可以继续收货。
+stone_msg:你的金额已满了唷！
+realy_msg:运送货物的酬劳大概就这样了。
+LimitItemNo:2402,2403,2404
+special_item:
+special_rate:0.5
+
+
+

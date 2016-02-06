@@ -1,0 +1,14 @@
+NPCTEMPLATE
+#######122迷路ミミック##########
+{
+templatename=sb_mimi
+makeatnobody=1
+makeatnosee=1
+type=16073
+functionset=NPCEnemy
+hp=100
+mp=100
+str=1
+tough=1
+}
+

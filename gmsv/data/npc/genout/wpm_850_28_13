@@ -1,0 +1,10 @@
+WARP:812,29,20
+FREE:LV>0&ENDEV=44&NOWEV=47&ITEM=2753,LV>0&ENDEV=44&NOWEV=47&ITEM=2759
+MONEY:-1
+FreeMsg:\n\n你想往前走？\n你的资格好像已经齐全了\n那我就替你带路吧。
+﹝
+PayMsg:\n\n前面是我们的秘密基地\n所以不能让你过去。
+﹝
+PartyMsg:\n\n前面是我们的秘密基地\n所以不能让你过去。
+
+

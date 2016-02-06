@@ -1,0 +1,10 @@
+WARP:811,34,15
+FREE:LV>0
+MONEY:-1
+FreeMsg:\n\n要退出了吗？\n再入场的时候、要从新收一次入场费。
+PayMsg:
+PartyMsg:\n不好意思、若要退出的话\n可以退出团队\n再个别的来吗？
+DelItem:2751,2752,2754
+MoneyMsg:
+
+

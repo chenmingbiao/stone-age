@@ -1,0 +1,10 @@
+WARP:20301,200,41
+FREE:LV>0&ENDEV=4&ENDEV=40,LV>0&ENDEV=4&NOWEV=40
+MONEY:-1
+FreeMsg:\n\n你想要继续前进吗？\n请你好好想一想\n这前面对你有什么意义再前进。
+PayMsg:\n\n关于继续前进的资格\n请你仔细想想后再过来一趟
+PartyMsg:\n想继续前进的话\n请一个人过来
+MoneyMsg:\n\n继续前进的资格是什么\n请你想一想后在过来一趟。
+
+
+

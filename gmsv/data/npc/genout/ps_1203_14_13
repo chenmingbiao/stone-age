@@ -1,0 +1,13 @@
+nomal_rate:0.7
+main_msg:柯尔克的宠物商店\n要挑那一只宠物呢？
+realy_msg:嗯！这只宠物的话，大约这个价格
+over_msg:超过金额限度了，可以吗？\n额度以上的话不行喔！
+thanks_msg:谢啦！\n下次是不同的宠物喔！
+special_rate:1.5
+special_pet:
+
+
+
+
+
+

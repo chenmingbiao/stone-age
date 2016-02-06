@@ -1,0 +1,15 @@
+NPCCREATE
+##################三只龙的事件##############
+
+{
+floorid=20807
+borncenter=23,25,1,1
+movecenter=23,25,23,25
+createnum=1
+time=200000
+dir=4
+graphicname=16024
+name=龙的守护者
+enemy=windowman|conff:jaruga/event/e_17.conf
+}
+

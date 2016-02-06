@@ -1,0 +1,35 @@
+###########################################################
+#琉璃的洞窟　蒂雅特的事件　　　　　　　　　　#
+#						负责：西竹#
+###########################################################
+###伊布的设定
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=39
+NomalWindowMsg:\n母亲竟然…。\n我为了能去见我母亲\n一定会努力变强的！\n真的是非常谢谢你。
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:NOWEV=39&ITEM!=2698
+AcceptMsg:\n你有遇到我爸爸吗？\n(告诉伊布，拉鲁所说的事情)\n…以我现在的状态\n即使去母亲所在的琉璃的洞窟也没有办法\n可以见到她吧…。
+ThanksMsg:\n我明白了、请你拿着这本日记\n到母亲的地方去吧。\n请转告我母亲有一天\n我一定会用我自己的力量去见她的。\n一切都麻烦你了。
+ItemFullMsg:\n\n所持物品太多\无法受下日记。
+GetItem:2698
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=39&ITEM=2698
+NomalWindowMsg:\n\n请转告我母亲有一天\n我一定会用我自己的力量去见她的。一切都麻烦你了。
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n虽然正在寻找大地的女神\n但是却不知道她在何处\n我为了调查这本日记的真相\n而想要去见大地的精灵???\n不知道场所就只能\n顺其自然的找了。
+EventEnd
+
+

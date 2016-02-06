@@ -1,0 +1,12 @@
+
+LIMITSHOP
+main_msg:欢迎光临！我卖的可是野生胡椒哦！
+realy_msg:真的可以吗？
+buy_msg:买,购买,感谢您,kau,buy,menu,谢谢,买东西
+sell_main:要卖哪种胡椒呢？
+sell_msg:卖东西,卖,sell,uru
+sell_rate:0.8
+special_rate:1.0
+LimitItemNo:12174,12175,12176
+itemfull_msg:喂，道具已经满了不是吗？
+stone_msg:你的钱太多了吧！！

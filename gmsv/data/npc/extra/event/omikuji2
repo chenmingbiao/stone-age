@@ -1,0 +1,30 @@
+###########################################################
+#¤ª¤ß¤¯¤¸¤â¤é¤¤¤Þ¤·¤ç¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ #
+# 						Ã´Åö¡§À¾ÃÝ#
+###########################################################
+NomalMainMsg:ÄãºÃ¡£ÉñÇ©Ò»ÌìÖ»ÄÜ³éÒ»´Îà¸¡£
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=36&LV>0
+NomalWindowMsg:\n\n¡¡¡¡¡¡¡¡¡¡»¶Ó­À´µ½³¤Ã«ÏóÉñÉç¡£\n¡¡¡¡ÉñÇ©Ò»ÌìÖ»ÄÜ³éÒ»´Îà¸¡£
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:NOWEV=36&LV>0&ITEM!=2615,NOWEV=36&LV>0&ITEM!=2616,NOWEV=36&LV>0&ITEM!=2617,NOWEV=36&LV>0&ITEM!=2618,NOWEV=36&LV>0&ITEM!=2619,NOWEV=36&LV>0&ITEM!=2620
+AcceptMsg:\n\n¡¡¡¡¡¡¡¡¡¡¡¡»¶Ó­À´µ½³¤Ã«ÏóÉñÉç\n¡¡¡¡¡¡¡¡Òª²»Òª³é¸öÇ©Ñ½£¿
+ThanksMsg:\n\n¡¡¡¡¡¡¡¡¡¡¡¡¡¡ºÃµÄ¡¢Çë¡£\n¡¡¡¡ÉñÇ©Ò»ÌìÖ»ÄÜ³éÒ»´Îà¸¡£
+ItemFullMsg:\nËù³ÖÎïÌ«¶àÁËÎÞ·¨ÊÕÏÂ¡£\nÄÜ·ñ°ÑÊÖÖÐµÄÐÐÀî¼õÉÙÖ®ºó\nÔÙµ½ÎÒÕâÀïÀ´Ò»´ÎÄØ£¿
+GetRandItem:2615,2616,2616,2617,2617,2617,2617,2618,2618,2618,2618,2618,2619,2619,2620
+EndSetFlg:36
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n\n¡¡¡¡¡¡¡¡¡¡»¶Ó­À´µ½³¤Ã«ÏóÉñÉç¡£\n¡¡¡¡¡¡¡¡Òª²»Òª³é¸öÇ©Ñ½£¿\nÏãÓÍÇ®¡¢Çë·ÅÈë±¾µîµÄÏãÓÍÏäÀïÃæ¡£
+EventEnd
+

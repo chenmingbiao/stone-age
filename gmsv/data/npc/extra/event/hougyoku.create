@@ -1,0 +1,22 @@
+NPCCREATE
+
+########################################
+#　　４つの术短イベント　　　　　　　　#
+#　　　　　　　　　　　　　　么碰¨谰幂#
+########################################
+
+{
+floorid=6000
+borncorner=58,44,58,44
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16047
+name=村子的学者
+enemy=changeevent|file:extra/event/hougyoku
+}
+
+
+
+

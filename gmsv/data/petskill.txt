@@ -1,0 +1,32 @@
+待机,什么也不做,PETSKILL_None,,,,0,1,5,2,500,PETSKILL_NONE
+攻击,通常攻击,PETSKILL_NormalAttack,,,,1,1,6,2,1000,PETSKILL_NORMALATTACK
+防御,通常防御,PETSKILL_NormalGuard,,,,2,1,5,2,1000,PETSKILL_NORMALGUARD
+破除防御,对采取防敌人攻击可能,PETSKILL_GuardBreak,,,,3,1,6,2,1500,PETSKILL_GUARDBREAK
+连续攻击,两次连续攻击,PETSKILL_ContinuationAttack,2,,,10,1,6,2,2000,PETSKILL_CONTINUATIONATTACK1
+三段攻击,3回合连续攻击,PETSKILL_ContinuationAttack,3,,,11,1,6,2,5000,PETSKILL_CONTINUATIONATTACK2
+T四段攻击,4回连续攻击,PETSKILL_ContinuationAttack,4,,Te,12,1,6,2,15000,PETSKILL_CONTINUATIONATTACK3
+T五段攻击,5回连续攻击,PETSKILL_ContinuationAttack,5,,Tf,13,1,6,2,25000,PETSKILL_CONTINUATIONATTACK4
+忠犬,保护主人不受到敌人的直接攻击,PETSKILL_Guardian,攻%-20  COM:攻击,,,20,1,7,2,2500,PETSKILL_GUARDIAN
+突击,1回合储存力量　　　 下次攻击时　　　 就会有两倍的攻击力,PETSKILL_ChargeAttack,1 攻%+90,,,30,1,6,2,4000,PETSKILL_CHARGE1
+双重突击,2回合储存力量 　　　下次攻击时 　　　就会有两倍以上的攻击力,PETSKILL_ChargeAttack,2 攻%+110,,,31,1,6,2,8000,PETSKILL_CHARGE2
+一击必杀,给予两倍的攻击伤害但是命中率下降,PETSKILL_Mighty,倍2 回避30,,,40,1,6,2,2500,PETSKILL_MIGHTY1
+T一击必杀改,给予3倍的攻击伤害但是命中率下降,PETSKILL_Mighty,倍3 回避15,,Ta,41,1,6,2,25000,PETSKILL_MIGHTY2
+背水之战其之１,防御力减30%　　攻击力变成+30%,PETSKILL_PowerBalance,攻%+25 防%-35,,,50,1,6,2,2000,PETSKILL_POWERBALANCE1
+背水之战其之２,防御力减50%　　攻击力变成+50%,PETSKILL_PowerBalance,攻%+45 防%-55,,,51,1,6,2,2500,PETSKILL_POWERBALANCE2
+T背水之战之其３,防御力变成-50%　　攻击力变成+80%,PETSKILL_PowerBalance,攻%+80 防%-50,,Tb,52,1,6,2,30000,PETSKILL_POWERBALANCE3
+毒攻击,攻击力减30%三回合前后让敌人中毒,PETSKILL_StatusChange,毒 turn 3  攻%-30,,,60,1,6,2,2500,PETSKILL_POISON_ATTACK1
+猛毒攻击,攻击力减50%五回合前后让敌人中毒,PETSKILL_StatusChange,毒 turn 5  攻%-50,,,61,1,6,2,4000,PETSKILL_POISON_ATTACK2
+石化攻击,攻击力减30%三回合前后让敌人石化,PETSKILL_StatusChange,石 turn 3  攻%-30,,,80,1,6,2,2300,PETSKILL_STONE
+混乱攻击,攻击力减30%三回合前后让敌人混乱,PETSKILL_StatusChange,乱 turn 3 攻%-30,,,90,1,6,2,2000,PETSKILL_CONFUSION_ATTACK
+泥醉攻击,攻击力减30%三回合前后让敌人酒醉,PETSKILL_StatusChange,醉 turn 3 攻%-30,,,100,1,6,2,2000,PETSKILL_DRUNK_ATTACK
+催眠攻击,攻击力减30%三回合前后让敌人沉睡,PETSKILL_StatusChange,眠 turn 3  攻%-30,,,110,1,6,2,2500,PETSKILL_SLEEP_ATTACK
+地球一周,一回合从敌人背后以两倍攻击力攻击,PETSKILL_EarthRound,攻%+90,,,120,1,6,2,2000,PETSKILL_EARTHROUND1
+旅程伙伴,把一只恐龙当作是伙伴当场带走,PETSKILL_Abduct,,,,130,1,7,2,3000,PETSKILL_Abduct
+偷窃,偷窃,PETSKILL_Steal,,,,140,1,7,2,0,PETSKILL_STEAL
+不防守战法,自己不进行攻击　　反击跟回避率　　　　　就会变的非常高,PETSKILL_NoGuard,回避%+30 反击%+50 会心%+20,,,150,1,5,2,3000,PETSKILL_NOGUARD1
+T不防守战法2,自己不进行攻击　　反击跟回避率　　　　　就会变的非常高,PETSKILL_NoGuard,回避%+40 反击%+60 会心%+30,,Tc,151,1,5,2,15000,PETSKILL_NOGUARD2
+T不防守战法3,自己不进行攻击　　反击跟回避率　　　　　就会变的非常高,PETSKILL_NoGuard,回避%+50 反击%+70 会心%+40,,Td,152,1,5,2,25000,PETSKILL_NOGUARD3
+加工,合成素材制作道具,PETSKILL_Merge,,,,200,2,0,1,1500,PETSKILL_MERGE
+料理,使用素材制作料理,PETSKILL_Merge,,,,201,2,0,1,1000,PETSKILL_MERGE2
+落马术,落马,PETSKILL_FallGround,攻%-30,,Ca,210,1,6,2,3000,PETSKILL_FALLGROUND
+捐献,要求对方捐献石币,PETSKILL_StealMoney,,,Aa,211,1,7,2,3500,PETSKILL_STEALMONEY

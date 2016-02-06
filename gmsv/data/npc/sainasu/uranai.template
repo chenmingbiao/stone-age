@@ -1,0 +1,12 @@
+NPCTEMPLATE
+# LuckyMan
+{
+templatename=luckyman
+makeatnobody=1
+makeatnosee=1
+name=
+graphicname=SPR_chr02
+functionset=LuckyMan
+}
+
+

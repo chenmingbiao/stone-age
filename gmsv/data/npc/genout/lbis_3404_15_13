@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:1.0
+buy_msg:买,购买,感谢您,kau,buy,menu,谢谢,买东西
+sell_msg:卖东西,卖,sell,uru
+sell_main:欢迎来到奇喀喀的肉店。\n要卖哪个肉呢？
+other_msg:提示,情报,生意如何
+hint_msg:我们大都处理较大块的肉。
+sellonly_msg:我们只买收肉品。\n要卖肉吗？
+stone_msg:你的钱太多了。
+realy_msg:这样可以了吗？
+LimitItemNo:1234-1249
+special_rate:1.0
+
+
+
+
+

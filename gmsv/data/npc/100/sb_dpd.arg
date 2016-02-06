@@ -1,0 +1,12 @@
+entype:2
+askbattlemsg1:什么！给我滚到旁边去！
+askbattlemsg2:还是你打算阻挠我们！
+askbattlemsg3:我们的等级可都是LV65以上的呀!即使这样还是有赢的自信
+askbattlemsg4:的话就放马过来吧!
+startmsg:放马过来!
+dieact:0
+end msg:
+enemyno:1283,1282,1284,1285,1286
+deniedmsg:什么!别妨碍我们、滚到旁边去!
+time=300
+

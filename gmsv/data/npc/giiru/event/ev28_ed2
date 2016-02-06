@@ -1,0 +1,31 @@
+#########################
+#5溶眬及福   ﹋幼□伙﹌ #
+#仍褞叁2    ﹛么癫“谰幂#
+#########################
+#########################
+
+NomalMainMsg:欢迎来到五兄弟的地下城！,来的好！我们正在单待秆开谜底者。
+
+EventNo:31
+TYPE:ACCEPT
+EVENT:ENDEV=28&NOWEV=31&ITEM=2517
+AcceptMsg:\n我是吉诺，＜火风＞的掌管者。非常欢迎你。\n请给我‘智慧的挡晶’\n我再给你我的手环\n以作为认定你是一名勇者。\n愿意踇受我的洗搂吗？
+ThanksMsg:\n\n那我依照约定收下“智之挡晶”了\n我把我的手环给你。\n我要把我的半身\n赐给拥有我手环的你\n这就是我跟你的信赖的证明摆。
+ItemFullMsg:要持有我所给的手环\n必须先预留一个道具栏空位。
+PetFullMsg:要得到我的分身，必须先将宠物栏空下来。
+DelItem:2517
+GetItem:2519
+GetPet:57
+EndSetFlg:31
+EventEnd
+
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=28&ENDEV=31&ITEM!=2517&ITEM=2519&PET>0-94,ENDEV=28&ENDEV=31&ITEM!=2517&PET>0-94
+NomalWindowMsg: \n我要把我的半身\n赐给拥有我手环的你\n这就是我跟你的信赖的证明摆。
+EventEnd
+
+
+

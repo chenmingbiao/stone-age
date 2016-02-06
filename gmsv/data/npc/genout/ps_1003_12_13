@@ -1,0 +1,13 @@
+nomal_rate:1.0
+main_msg:欢迎光临宠物店。你的宠物要卖还是寄放都可以。
+realy_msg:这只宠物的话、大概是这个价钱吧！
+over_msg:超出你的限度额也没关系吗？\n在限度额以上的话就没办法给你啰。
+thanks_msg:谢谢。\n要好好的饲养它喔。
+cost_msg:钱不够喔。
+pooltanks_msg:希望你再度光临。
+poolfull_msg:已经无法再寄放了。
+getfull_msg:宠物已经太多了无法再拿了。
+pool_flg:1
+pool_cost:200
+special_rate:1.5
+special_pet:

@@ -1,0 +1,9 @@
+entype:2
+askbattlemsg:若想要通过就将我打倒吧！
+startmsg:这也是为了要成为山贼，拜托你了，小卡。
+dieact:0
+end msg:
+enemyno:440,441
+deniedmsg:啊啊～真想早点成为山贼。
+time=60
+

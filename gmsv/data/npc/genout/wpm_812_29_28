@@ -1,0 +1,10 @@
+WARP:811,32,26
+FREE:LV>0
+MONEY:-1
+FreeMsg:\n\n从这里可以直接到1楼吗？\n如果下去的话、还要再付入场费\n才能到这里来玩喔。
+PayMsg:
+PartyMsg:\n不好意思、可以一个一个来吗？
+DelItem:2751,2752,2754
+MoneyMsg:
+
+

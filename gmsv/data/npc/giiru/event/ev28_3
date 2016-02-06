@@ -1,0 +1,44 @@
+###########################
+#五兄弟的地下城（吉鲁） #
+#第一问　绿　担任者：西竹#
+###########################
+###########################
+######答案岿误###############
+
+
+NomalMainMsg:来的好呀！你好吗？制作问题真快撝！
+
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM=2507
+AcceptMsg:\n\n\n　　　你认为是绿？
+ThanksMsg:\n\n　　　那请拿着答案用纸\n　　继续向前进吧！
+ItemFullMsg:\n\n　　　似乎无法持有答案用纸，\n请减少一些物品再来吧！
+DelItem:2507*1
+GetItem:2508*1
+EventEnd
+
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM=2508
+AcceptMsg:\n\n\n　　　你认为是绿？
+ThanksMsg:\n\n　　　那请拿着答案用纸\n　　继续向前进吧！
+ItemFullMsg:\n\n　　　似乎无法持有答案用纸，\n请减少一些物品再来吧！
+DelItem:2508*1
+GetItem:2508*1
+EventEnd
+
+
+EventNo:28
+TYPE:ACCEPT
+EVENT:NOWEV=28&ITEM!=2507,NOWEV=28&ITEM!=2508
+AcceptMsg:\n\n\n　　　你认为是绿？
+ThanksMsg:\n\n　　　那请拿着答案用纸\n　　继续向前进吧！
+ItemFullMsg:\n\n　　　似乎无法持有答案用纸，\n请减少一些物品再来吧！
+GetItem:2508*1
+EventEnd
+
+
+

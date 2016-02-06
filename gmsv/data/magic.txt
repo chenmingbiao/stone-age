@@ -1,0 +1,181 @@
+治愈的精灵 Lv1,耐久力回复 80 (自己),MAGIC_Recovery,80,0,0,0,0,
+治愈的精灵 Lv2,耐久力回复 160 (自己),MAGIC_Recovery,160,1,0,0,0,
+治愈的精灵 Lv3,耐久力回复 320 (自己),MAGIC_Recovery,320,2,0,0,0,
+治愈的精灵 Lv4,耐久力回复 480 (自己),MAGIC_Recovery,480,3,0,0,0,
+治愈的精灵 Lv5,耐久力回复 800 (自己),MAGIC_Recovery,800,4,0,0,0,
+治愈的精灵 Lv6,耐久力回复 1160 (自己),MAGIC_Recovery,1160,5,0,0,0,
+滋润的精灵 Lv1,耐久力回复 65 (单人),MAGIC_OtherRecovery,65,10,0,1,0,
+滋润的精灵 Lv2,耐久力回复 130 (单人),MAGIC_OtherRecovery,130,11,0,1,0,
+滋润的精灵 Lv3,耐久力回复 260 (单人),MAGIC_OtherRecovery,260,12,0,1,0,
+滋润的精灵 Lv4,耐久力回复 390 (单人),MAGIC_OtherRecovery,390,13,0,1,0,
+滋润的精灵 Lv5,耐久力回复 650 (单人),MAGIC_OtherRecovery,650,14,0,1,0,
+滋润的精灵 Lv6,耐久力回复 880 (单人),MAGIC_OtherRecovery,880,15,0,1,0,
+恩惠的精灵Lv1,耐久力回复 50 (一方全体),MAGIC_Recovery,50,20,1,8,0,
+恩惠的精灵Lv2,耐久力回复 100 (一方全体),MAGIC_Recovery,100,21,1,8,0,
+恩惠的精灵Lv3,耐久力回复 200 (一方全体),MAGIC_Recovery,200,22,1,8,0,
+恩惠的精灵Lv4,耐久力回复 300 (一方全体),MAGIC_Recovery,300,23,1,8,0,
+恩惠的精灵Lv5,耐久力回复 500 (一方全体),MAGIC_Recovery,500,24,1,8,0,
+恩惠的精灵 Lv6,耐久力回复 600 (一方全体),MAGIC_Recovery,600,25,1,8,0,
+恩惠的精靈 Lv100,耐久力回復 10000 (一方全體),MAGIC_Recovery,10000,26,1,8,0,
+复活精灵 Lv1,气绝状态回复 100 (单人),MAGIC_Ressurect,100,50,1,1,1,
+复活精灵 Lv2,气绝状态回复 300 (单人),MAGIC_Ressurect,300,51,1,1,1,
+复活精灵 Lv3,气绝状态回复 500 (单人),MAGIC_Ressurect,500,52,1,1,1,
+复活精灵 Lv4,气绝状态回复 700 (单人),MAGIC_Ressurect,700,53,1,1,1,
+高等净化精灵Lv1,全部状态异常回复 (单人),MAGIC_StatusRecovery,全,60,1,1,0,
+高等净化精灵Lv2,全部状态异常回复 (一方全体),MAGIC_StatusRecovery,全,61,1,8,0,
+净化精灵(毒)Lv1,毒状态回复 (单人),MAGIC_StatusRecovery,毒,70,1,1,0,
+净化精灵(毒)Lv2,毒状态回复 (一方全体),MAGIC_StatusRecovery,毒,71,1,8,0,
+净化精灵(麻痹)Lv1,回复一人麻痹状态,MAGIC_StatusRecovery,麻,80,1,1,0,
+净化精灵(麻痹)Lv2,回复全体麻痹状态,MAGIC_StatusRecovery,麻,81,1,8,0,
+净化精灵(石化)Lv1,石化状态回复 (单人),MAGIC_StatusRecovery,石,90,1,1,0,
+净化精灵(石化)Lv2,石化状态回复 (一方全体),MAGIC_StatusRecovery,石,91,1,8,0,
+净化精灵(混乱)Lv1,混乱状态回复 (单人),MAGIC_StatusRecovery,乱,100,1,1,0,
+净化精灵(混乱)Lv2,混乱状态回复 (一方全体),MAGIC_StatusRecovery,乱,101,1,8,0,
+净化精灵(酒醉)Lv1,酒醉状态回复 (单人),MAGIC_StatusRecovery,醉,110,1,1,0,
+净化精灵(酒醉)Lv2,酒醉状态回复 (一方全体),MAGIC_StatusRecovery,醉,111,1,8,0,
+净化精灵(睡眠)Lv1,睡眠状态回复 (单人),MAGIC_StatusRecovery,眠,120,1,1,0,
+净化精灵(睡眠)Lv2,睡眠状态回复 (一方全体),MAGIC_StatusRecovery,眠,121,1,8,0,
+猛毒的精灵 Lv1,中毒状态 3回合前后 (单人),MAGIC_StatusChange,毒 turn 3 成 20,130,1,1,0,
+猛毒的精灵 Lv2,中毒状态 3回合前后 (单人),MAGIC_StatusChange,毒 turn 3 成 25,131,1,1,0,
+猛毒的精灵 Lv3,中毒状态4回合前后 (单人),MAGIC_StatusChange,毒 turn 4  成 25,132,1,1,0,
+猛毒的精灵 Lv4,中毒状态4回合前后 (单人),MAGIC_StatusChange,毒 turn 4  成 30,133,1,1,0,
+猛毒的精灵 Lv5,中毒状态5回合前后 (单人),MAGIC_StatusChange,毒 turn 5 成 25,134,1,1,0,
+毒雾的精灵 Lv1,中毒状态 3回合前后 (一方全体),MAGIC_StatusChange,毒 turn 3 成 20,135,1,8,0,
+毒雾的精灵 Lv2,中毒状态 3回合前后 (一方全体),MAGIC_StatusChange,毒 turn 3 成 25,136,1,8,0,
+毒雾的精灵 Lv3,中毒状态 4回合前后 (一方全体),MAGIC_StatusChange,毒 turn 4 成 25,137,1,8,0,
+毒雾的精灵 Lv4,中毒状态 4回合前后 (一方全体),MAGIC_StatusChange,毒 turn 4 成 30,138,1,8,0,
+毒雾的精灵 Lv5,中毒状态 5回合前后 (一方全体),MAGIC_StatusChange,毒 turn 5 成 25,139,1,8,0,
+硬化的精灵 Lv1,石化状态 3回合前后 (单人),MAGIC_StatusChange,石 turn 3 成 15,150,1,1,0,
+硬化的精灵 Lv2,石化状态 3回合前后 (单人),MAGIC_StatusChange,石 turn 3 成 20,151,1,1,0,
+硬化的精灵 Lv3,石化状态 4回合前后 (单人),MAGIC_StatusChange,石 turn 4 成 25,152,1,1,0,
+硬化的精灵 Lv4,石化状态 4回合前后 (单人),MAGIC_StatusChange,石 turn 4 成 30,153,1,1,0,
+硬化的精灵 Lv5,石化状态 5回合前后 (单人),MAGIC_StatusChange,石 turn 5 成 25,154,1,1,0,
+石化的精灵 Lv1,石化状态 3回合前后 (一方全体),MAGIC_StatusChange,石 turn 3 成 15,155,1,8,0,
+石化的精灵 Lv2,石化状态 3回合前后 (一方全体),MAGIC_StatusChange,石 turn 3 成 20,156,1,8,0,
+石化的精灵 Lv3,石化状态 4回合前后 (一方全体),MAGIC_StatusChange,石 turn 4 成 25,157,1,8,0,
+石化的精灵 Lv4,石化状态 4回合前后 (一方全体),MAGIC_StatusChange,石 turn 4 成 30,158,1,8,0,
+石化的精灵 Lv5,石化状态 5回合前后 (一方全体),MAGIC_StatusChange,石 turn 5 成 25,159,1,8,0,
+混乱的精灵 Lv1,混乱状态 3回合前后 (单人),MAGIC_StatusChange,乱 turn 3 成 20,160,1,1,0,
+混乱的精灵 Lv2,混乱状态 3回合前后 (单人),MAGIC_StatusChange,乱 turn 3 成 25,161,1,1,0,
+混乱的精灵 Lv3,混乱状态 4回合前后 (单人),MAGIC_StatusChange,乱 turn 4 成 25,162,1,1,0,
+混乱的精灵 Lv4,混乱状态 4回合前后 (单人),MAGIC_StatusChange,乱 turn 4 成 30,163,1,1,0,
+混乱的精灵 Lv5,混乱状态 5回合前后 (单人),MAGIC_StatusChange,乱 turn 5 成 25,164,1,1,0,
+混迷的精灵 Lv1,混乱状态 3回合前后 (一方全体),MAGIC_StatusChange,乱 turn 3 成 20,165,1,8,0,
+混迷的精灵 Lv2,混乱状态 3回合前后 (一方全体),MAGIC_StatusChange,乱 turn 3 成 25,166,1,8,0,
+混迷的精灵 Lv3,混乱状态 4回合前后 (一方全体),MAGIC_StatusChange,乱 turn 4 成 25,167,1,8,0,
+混迷的精灵 Lv4,混乱状态 4回合前后 (一方全体),MAGIC_StatusChange,乱 turn 4 成 30,168,1,8,0,
+混迷的精灵 Lv5,混乱状态 5回合前后 (一方全体),MAGIC_StatusChange,乱 turn 5 成 25,169,1,8,0,
+酒的精灵 Lv1,酒醉状态 3回合前后 (单人),MAGIC_StatusChange,醉 turn 3 成 20,170,1,1,0,
+酒的精灵 Lv2,酒醉状态 3回合前后 (单人),MAGIC_StatusChange,醉 turn 3 成 25,171,1,1,0,
+酒的精灵 Lv3,酒醉状态 4回合前后 (单人),MAGIC_StatusChange,醉 turn 4 成 25,172,1,1,0,
+酒的精灵 Lv4,酒醉状态 4回合前后 (单人),MAGIC_StatusChange,醉 turn 4 成 30,173,1,1,0,
+酒的精灵 Lv5,酒醉状态 5回合前后 (单人),MAGIC_StatusChange,醉 turn 5 成 25,174,1,1,0,
+酩酊的精灵 Lv1,酒醉状态 3回合前后 (一方全体),MAGIC_StatusChange,醉 turn 3 成 20,175,1,8,0,
+酩酊的精灵 Lv2,酒醉状态 3回合前后 (一方全体),MAGIC_StatusChange,醉 turn 3 成 25,176,1,8,0,
+酩酊的精灵 Lv3,酒醉状态 4回合前后 (一方全体),MAGIC_StatusChange,醉 turn 4 成 25,177,1,8,0,
+酩酊的精灵 Lv4,酒醉状态 4回合前后 (一方全体),MAGIC_StatusChange,醉 turn 4 成 30,178,1,8,0,
+酩酊的精灵 Lv5,酒醉状态 5回合前后 (一方全体),MAGIC_StatusChange,醉 turn 5 成 25,179,1,8,0,
+睡眠的精灵 Lv1,睡眠状态 3回合前后 (单人),MAGIC_StatusChange,眠 turn 3 成 20,180,1,1,0,
+睡眠的精灵 Lv2,睡眠状态 3回合前后 (单人),MAGIC_StatusChange,眠 turn 3 成 25,181,1,1,0,
+睡眠的精灵 Lv3,睡眠状态 4回合前后 (单人),MAGIC_StatusChange,眠 turn 4 成 25,182,1,1,0,
+睡眠的精灵 Lv4,睡眠状态 4回合前后 (单人),MAGIC_StatusChange,眠 turn 4 成 30,183,1,1,0,
+睡眠的精灵 Lv5,睡眠状态 5回合前后 (单人),MAGIC_StatusChange,眠 turn 5 成 25,184,1,1,0,
+昏睡的精灵 Lv1,睡眠状态 3回合前后 (一方全体),MAGIC_StatusChange,眠 turn 3 成 20,185,1,8,0,
+昏睡的精灵 Lv2,睡眠状态 3回合前后 (一方全体),MAGIC_StatusChange,眠 turn 3 成 25,186,1,8,0,
+昏睡的精灵 Lv3,睡眠状态 4回合前后 (一方全体),MAGIC_StatusChange,眠 turn 4 成 25,187,1,8,0,
+昏睡的精灵 Lv4,睡眠状态 4回合前后 (一方全体),MAGIC_StatusChange,眠 turn 4 成 30,188,1,8,0,
+昏睡的精灵 Lv5,睡眠状态 5回合前后 (一方全体),MAGIC_StatusChange,眠 turn 5 成 25,189,1,8,0,
+大地的精灵 Lv1,地属性优遇 60% 3回合 (全体),MAGIC_FieldAttChange,地 60  turn 3,190,1,4,0,
+大地的精灵 Lv2,地属性优遇 70% 3回合 (全体),MAGIC_FieldAttChange,地 70  turn 3,191,1,4,0,
+大地的精灵 Lv3,地属性优遇 80% 4回合 (全体),MAGIC_FieldAttChange,地 80  turn 4,192,1,4,0,
+大地的精灵 Lv4,地属性优遇 90% 4回合 (全体),MAGIC_FieldAttChange,地 90  turn 4,193,1,4,0,
+大地的精灵 Lv5,地属性优遇100% 5回合 (全体),MAGIC_FieldAttChange,地 100 turn 5,194,1,4,0,
+水的精灵 Lv1,水属性优遇60% 3回合 (全体),MAGIC_FieldAttChange,水 60  turn 3,200,1,4,0,
+水的精灵 Lv2,水属性优遇 70% 3回合 (全体),MAGIC_FieldAttChange,水 70  turn 3,201,1,4,0,
+水的精灵 Lv3,水属性优遇 80% 4回合 (全体),MAGIC_FieldAttChange,水 80  turn 4,202,1,4,0,
+水的精灵 Lv4,水属性优遇 90% 4回合 (全体),MAGIC_FieldAttChange,水 90  turn 4,203,1,4,0,
+水的精灵 Lv5,水属性优遇100% 5回合 (全体),MAGIC_FieldAttChange,水 100  turn 5,204,1,4,0,
+火炎的精灵 Lv1,火属性优遇 60% 3回合 (全体),MAGIC_FieldAttChange,火 60  turn 3,210,1,4,0,
+火炎的精灵 Lv2,火属性优遇 70% 3回合 (全体),MAGIC_FieldAttChange,火 70  turn 3,211,1,4,0,
+火炎的精灵 Lv3,火属性优遇 80% 4回合 (全体),MAGIC_FieldAttChange,火 80  turn 4,212,1,4,0,
+火炎的精灵 Lv4,火属性优遇 90% 4回合 (全体),MAGIC_FieldAttChange,火 90  turn 4,213,1,4,0,
+火炎的精灵 Lv5,火属性优遇100% 5回合 (全体),MAGIC_FieldAttChange,火 100  turn 5,214,1,4,0,
+疾风的精灵 Lv1,风属性优遇 60% 3回合 (全体),MAGIC_FieldAttChange,风 60  turn 3,220,1,4,0,
+疾风的精灵 Lv2,风属性优遇 70% 3回合 (全体),MAGIC_FieldAttChange,风 70  turn 3,221,1,4,0,
+疾风的精灵 Lv3,风属性优遇 80% 4回合 (全体),MAGIC_FieldAttChange,风 80  turn 4,222,1,4,0,
+疾风的精灵 Lv4,风属性优遇 90% 4回合 (全体),MAGIC_FieldAttChange,风 90  turn 4,223,1,4,0,
+疾风的精灵 Lv5,风属性优遇100% 5回合 (全体),MAGIC_FieldAttChange,风 100  turn 5,224,1,4,0,
+调和的精灵,回复成无属性 (全体),MAGIC_FieldAttChange,无,230,1,4,0,
+彩虹的精灵,属性反转 (单人),MAGIC_AttReverse,,240,1,1,0,
+极光的精灵,属性反转 (全体),MAGIC_AttReverse,,241,1,8,0,
+光的精灵,攻击吸收1次 (单人),MAGIC_MagicDef,吸  turn 1,250,1,1,0,
+镜子的精灵,攻击反射1次 (单人),MAGIC_MagicDef,反  turn 1,260,1,1,0,
+守护的精灵,攻击无效2次 (单人),MAGIC_MagicDef,无  turn 2,270,1,1,0,
+复活光精灵 Lv1,气绝状态回复 100　　　攻击吸收 1次 (单人),MAGIC_ResAndDef,100 吸 turn 1,280,1,1,1,
+复活镜精灵 Lv1,气绝状态回复 100　　　直接攻击反射 1次 (单人),MAGIC_ResAndDef,100 反 turn 1,290,1,1,1,
+复活守护精灵 Lv1,气绝状态的回复 100　　　攻击无效 2次 (单人),MAGIC_ResAndDef,100 无 turn 2,300,1,1,1,
+岩石撞击,地魔法LV1,MAGIC_AttMagic,地|100|1,301,1,1,0,8
+落石撞击,地魔法LV2,MAGIC_AttMagic,地|150|2,302,1,9,0,9
+土石流,地魔法LV3-1,MAGIC_AttMagic,地|165|3,303,1,10,0,10
+巨岩撞击,地魔法LV3-2,MAGIC_AttMagic,地|185|3,304,1,9,0,11
+地震,地魔法LV3-3,MAGIC_AttMagic,地|200|3,305,1,11,0,12
+陨石冲击,地魔法LV4,MAGIC_AttMagic,地|250|4,306,1,11,0,13
+水柱,水魔法LV1,MAGIC_AttMagic,水|100|1,307,1,9,0,14
+水刃,水魔法LV2,MAGIC_AttMagic,水|150|2,308,1,9,0,15
+大冰山,水魔法LV3-1,MAGIC_AttMagic,水|165|3,309,1,9,0,16
+沸点攻击,水魔法LV3-2,MAGIC_AttMagic,水|185|3,310,1,9,0,17
+暴风雪,水魔法LV3-3,MAGIC_AttMagic,水|200|3,311,1,9,0,18
+冰天雪地,水魔法LV4,MAGIC_AttMagic,水|250|4,312,1,11,0,19
+火球,火魔法LV1,MAGIC_AttMagic,火|100|1,313,1,9,0,2
+火焰连弹,火魔法LV2,MAGIC_AttMagic,火|150|2,314,1,9,0,3
+蒸汽喷射,火魔法LV3-1,MAGIC_AttMagic,火|165|3,315,1,9,0,4
+火焰风爆,火魔法LV3-2,MAGIC_AttMagic,火|185|3,316,1,9,0,5
+熔岩爆发,火魔法LV3-3,MAGIC_AttMagic,火|200|3,317,1,11,0,6
+火山爆发,火魔法LV4,MAGIC_AttMagic,火|200|4,318,1,11,0,7
+风刃,风魔法LV1,MAGIC_AttMagic,风|100|1,319,1,9,0,20
+真空刃,风魔法LV2,MAGIC_AttMagic,风|150|2,320,1,9,0,21
+龙卷风,风魔法LV3-1,MAGIC_AttMagic,风|165|3,321,1,10,0,22
+暴风烈刃,风魔法LV3-2,MAGIC_AttMagic,风|165|3,322,1,9,0,23
+暴风冰刃,风魔法LV3-3,MAGIC_AttMagic,风|200|3,323,1,11,0,24
+南极飓风,风魔法LV4,MAGIC_AttMagic,风|250|4,324,1,11,0,25
+毁天灭地,魔法LV5,MAGIC_AttMagic,火|350|5,325,1,11,0,26
+破除防御,对采取防敌人攻击可能,MAGIC_AttSkill,PETSKILL_GuardBreak;3,326,1,1,0,0
+突击,1回合储存力量就会有两倍的攻击力,MAGIC_AttSkill,PETSKILL_ChargeAttack;30,327,1,1,0,0
+一击必杀,给予两倍的攻击伤害但是命中率下降,MAGIC_AttSkill,PETSKILL_Mighty;40,328,1,1,0,0
+背水之战其之１,防御力减30%　　攻击力变成+30%,MAGIC_AttSkill,PETSKILL_PowerBalance;50,329,1,1,0,0
+不防守战法,自己不进行攻击反击跟回避率就会变的非常高,MAGIC_AttSkill,PETSKILL_NoGuard;150,330,1,1,0,0
+变幻的精灵 Lv1,变身成自己的宠物一分钟,MAGIC_Metamo,60,350,0,1,0,0
+变幻的精灵 Lv2,变身成自己的宠物二分钟,MAGIC_Metamo,120,351,0,1,0,0
+变幻的精灵 Lv3,变身成自己的宠物三分钟,MAGIC_Metamo,180,352,0,1,0,0
+變幻的精靈 Lv10,變身成自己的寵物一天,MAGIC_Metamo,86400,355,0,1,0,0
+虚弱,被攻击者三回合内防御跟敏捷下降20%,MAGIC_Weaken,虚 turn 3 成 50,390,1,1,0,0
+全体虚弱,敌全体三回合内防御跟敏捷下降20%,MAGIC_Weaken,虚 turn 3 成 50,391,1,8,0,0
+魔法防御 Lv1,提升全魔法抗性+20%三回合我方单体,MAGIC_MagicStatusChange,魔抗|3|20|单,392,1,1,0,0
+魔法防御 Lv2,提升全魔法抗性+20%三回合我方全体,MAGIC_MagicStatusChange,魔抗|3|20|全,393,1,8,0,0
+奔龙阵,招唤巴朵兰恩攻击敌方单体,MAGIC_ToCallDragon,100373|300,394,1,9,0,0
+强恩阵,招唤强恩攻击敌方一排,MAGIC_ToCallDragon,100401|300,395,1,10,0,1
+奔雷阵,招唤雷龙群攻击敌方全体,MAGIC_ToCallDragon,101422|400,396,1,11,0,2
+魔障,使敌全体一回合无法行动,MAGIC_Barrier,障 turn 1 成 50,397,1,3,0,0
+沉默,使敌全体无法使用咒术3回合,MAGIC_Nocast,默 turn 3 成 50,398,1,3,0,0
+ＧＭ烟火,ＧＭ放出一个漂亮的烟火攻擊敵方全體,MAGIC_ToCallDragon,101901|1000,399,1,11,0,2
+净化精灵(剧毒)Lv1,剧毒状态回复 (单人),MAGIC_StatusRecovery,剧,402,1,1,0,
+净化精灵(剧毒)Lv2,剧毒状态回复 (一方全体),MAGIC_StatusRecovery,剧,403,1,8,0,
+净化精灵(魔障)Lv1,魔障状态回复 (单人),MAGIC_StatusRecovery,障,404,1,1,0,
+净化精灵(魔障)Lv2,魔障状态回复 (一方全体),MAGIC_StatusRecovery,障,405,1,8,0,
+净化精灵(沉默)Lv1,沉默状态回复 (单人),MAGIC_StatusRecovery,默,406,1,1,0,
+净化精灵(沉默)Lv2,沉默状态回复 (一方全体),MAGIC_StatusRecovery,默,407,1,8,0,
+净化精灵(虚弱)Lv1,虚弱状态回复 (单人),MAGIC_StatusRecovery,虚,408,1,1,0,
+净化精灵(虚弱)Lv2,虚弱状态回复 (一方全体),MAGIC_StatusRecovery,虚,409,1,8,0,
+变幻的精灵 Lv4,变身成自己的宠物十分钟,MAGIC_Metamo,600,410,0,1,0,0
+破除沉默,解除沉默状态,MAGIC_StatusRecovery,默,411,1,8,0,0
+毒雾的精灵 Lv6,中毒状态 6回合前后 (一方全体),MAGIC_StatusChange,毒 turn 6 成 25,412,1,8,0,
+石化的精灵 Lv6,石化状态 6回合前后 (一方全体),MAGIC_StatusChange,石 turn 6 成 25,413,1,8,0,
+混迷的精灵 Lv6,混乱状态 6回合前后 (一方全体),MAGIC_StatusChange,乱 turn 6 成 25,414,1,8,0,
+酩酊的精灵 Lv6,酒醉状态 6回合前后 (一方全体),MAGIC_StatusChange,醉 turn 6 成 25,415,1,8,0,
+昏睡的精灵 Lv6,睡眠状态 6回合前后 (一方全体),MAGIC_StatusChange,眠 turn 6 成 25,416,1,8,0,
+冰之精灵Lv1,冰抗性提升10  3回合(单人),MAGIC_MagicStatusChange,冰抗|3|10|单,417,1,1,0,0
+电之精灵Lv1,电抗性提升10  3回合(单人),MAGIC_MagicStatusChange,电抗|3|10|单,418,1,1,0,0
+火之精灵Lv1,火抗性提升10  3回合(单人),MAGIC_MagicStatusChange,火抗|3|10|单,419,1,1,0,0
+冰之精灵Lv2,冰抗性提升10  3回合(一方全体),MAGIC_MagicStatusChange,冰抗|3|10|全,420,1,8,0,0
+电之精灵Lv2,电抗性提升10  3回合(一方全体),MAGIC_MagicStatusChange,电抗|3|10|全,421,1,8,0,0
+火之精灵Lv2,火抗性提升10  3回合(一方全体),MAGIC_MagicStatusChange,火抗|3|10|全,422,1,8,0,0

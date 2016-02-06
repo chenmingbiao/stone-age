@@ -1,0 +1,14 @@
+NPCCREATE
+
+
+
+###### ÈøÄ·¼ª¶û ######
+{
+name=ÈøÄ·¼ª¶û
+floorid=5501
+borncenter=43,5,1,1
+dir=6
+createnum=1
+enemy=changeevent|file:poru/samugiru
+graphicname=100036
+}

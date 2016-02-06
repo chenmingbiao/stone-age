@@ -1,0 +1,10 @@
+WARP:31806,34,6
+FREE:ITEM=2527
+DelItem:2527*1
+MONEY:-1
+FreeMsg:这是入场许可证。\n要进入最上层吗？
+PayMsg:这里没有许可证不能进去唷！
+MoneyMsg:请拿到许可证后，再来一次。
+
+
+

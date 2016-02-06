@@ -1,0 +1,11 @@
+#NPCCREATE
+#{
+#floorid=777
+#borncorner=29,21,29,21
+#time=0
+#createnum=1
+#dir=4
+#ignoreinvincible=1 > graphicname=100251
+#name=×ªÉúÈË
+#enemy=npc_transmigration|file:777/ten.arg
+#}

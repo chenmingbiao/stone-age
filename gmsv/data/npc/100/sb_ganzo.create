@@ -1,0 +1,12 @@
+NPCCREATE
+#######¤¤¤¸¤ï¤ë¤Ê¥¬¥ó¥¾¡õ¥Õ¥Ð¶d##########
+{
+floorid=100
+borncenter=472,297,1,1
+movecenter=20,20,100,100
+createnum=1
+dir=4
+graphicname=100401
+name=»µÐÄÑÛµÄÔ¸²Ø
+enemy=sb_ganzo|file:100/sb_ganzo.arg
+}

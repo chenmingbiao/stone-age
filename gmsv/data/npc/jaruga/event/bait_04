@@ -1,0 +1,16 @@
+NomalMainMsg:那边的洞窟，有加工品材料的恐龙出没啊，牧场场主不是在募集打工人员吗…
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2594
+NomalWindowMsg:\n你有绿色的调教手环啊\n这层楼是我负责的区域\n\n对了，交换证明书的地方在办公室\n这点请你不要忘了。
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM!=2594
+NomalWindowMsg:\n我的工作是向有绿色调教手环的人\n说明这里工作的内容\n你好像没有嘛。
+EventEnd
+
+

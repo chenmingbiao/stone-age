@@ -1,0 +1,13 @@
+entype:2
+askbattlemsg1:我是ＳＢＣ的审查员。
+askbattlemsg2:你要接受饲育员的认定审查吗？
+startmsg:让我试试看你的力量吧。
+dieact:1
+warpfl:10920
+warpx:55
+warpy:28
+end msg:
+enemyno:941,942
+deniedmsg:我是ＳＢＣ的审查员。
+alreadymsg:其他的玩家正在审查中。请稍待。
+onebattle:1

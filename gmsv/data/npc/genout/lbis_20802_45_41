@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:0.6
+buy_msg:你好,谢谢,买,买,买,谢谢,买,买,想要,kau,buy,请给我
+main_msg:欢迎光临
+sell_msg:卖,卖,卖,卖,卖,sell,uru
+sell_main:您想要吊唁哪一种肉？
+other_msg:暗示,情报,状况,肉,niku
+hint_msg:龙的诞生巢穴
+sellonly_msg:您要不要吊唁您所带的肉？
+stone_msg:金钱已满！
+realy_msg:真的可以吗？
+LimitItemNo:1234-1249
+
+special_rate:1.0
+
+
+

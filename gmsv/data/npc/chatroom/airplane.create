@@ -1,0 +1,58 @@
+NPCCREATE
+#######加美航空 玛丽娜丝～奇努伊##########
+{
+floorid=2000
+borncenter=105,87,1,1
+movecenter=105,87,105,87
+createnum=1
+dir=4
+graphicname=100259
+name=加美航空
+enemy=airplane|file:chatroom/airplane.arg
+}
+#######加美航空 卡鲁他那～奇努伊##########
+{
+floorid=4000
+borncenter=92,72,1,1
+movecenter=92,72,92,72
+createnum=1
+dir=4
+graphicname=100259
+name=加美航空
+enemy=airplane|file:chatroom/airplane2.arg
+}
+#######加美航空 达那～奇努伊##########
+{
+floorid=5100
+borncenter=43,37,1,1
+movecenter=43,37,43,37
+createnum=1
+dir=2
+graphicname=100259
+name=加美航空
+enemy=airplane|file:chatroom/airplane3.arg
+}
+
+#######加美航空 福村～北吉鲁区##########
+{
+floorid=5000
+borncenter=43,59,1,1
+movecenter=43,59,43,59
+createnum=1
+dir=4
+graphicname=100259
+name=加美航空
+enemy=airplane|file:chatroom/airplane5.arg
+}
+
+#######加美航空 福村～西吉鲁区##########
+{
+floorid=5000
+borncenter=45,60,1,1
+movecenter=45,60,45,60
+createnum=1
+dir=4
+graphicname=100259
+name=加美航空
+enemy=airplane|file:chatroom/airplane4.arg
+}

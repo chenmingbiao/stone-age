@@ -1,0 +1,32 @@
+###########################################################
+#碧青洞窟  艾尼基的事件﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛     #
+# 						负责人：西竹#
+###########################################################
+###给水的NPC的设定
+
+
+NomalMainMsg:到这里一定历经不少苦头吧。
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>64&ENDEV=46,LV>64&NOWEV=46&ITEM=2768
+NomalWindowMsg:\n\n\n湖水派上场了没有啊？
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>64&NOWEV=46&ITEM!=2768
+AcceptMsg:\n\n你需要这个湖水吗？
+ThanksMsg:\n这样的话，请拿去吧\n我希望这个水可以帮的了你们\n要是打翻的话就会摔破\n处理的时候请小心一点哦。
+ItemFullMsg:你好像身上东西太多了，装不下了哦\n请你把身上的东西减少一点后\n再过来一趟。
+GetItem:2768
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n\n这里的湖水\n被称为‘群青之水’哦。
+EventEnd

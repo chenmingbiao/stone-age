@@ -1,0 +1,33 @@
+###########################################
+#クイズさん坊娘　 アイテム减け畔しイベント#
+# 		クエス肋年	么碰¨谰幂#
+###########################################
+
+NomalMainMsg:你也以成为猜谜大师而在努力着呀！
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>69
+AcceptMsg:欢迎来到卡鲁它那的道场。\n在这里贩卖着往前面的‘猜谜三兄弟的家’的入场券。\n因为你是LV70以上拿着“入场券C”进去吧。\n收下参加费%8dstone\n。这样子可以吗？
+ThanksMsg:\n\n非常的谢谢你。\n确实收到了。\n那么往前走请引导C的人\n帮你介绍吧。
+DelStone:LV*40
+StoneLessMsg:\n\n非常的不好意思\n钱不够喔。
+GetItem:2757
+ItemFullMsg:\n\n道具已经满了。\n可以把道具减少之后\n再入场来吗？
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>29&LV<70
+NomalWindowMsg:\n欢迎来到卡鲁它那的道场。\n在这里贩卖着往前面的‘猜谜三兄弟的家’的入场券。\n这个道场接受LV70以上的人进来。\n非此对象的话请往\n玛丽娜丝道场前进吧。
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n欢迎来到卡鲁它那的道场。\n在这里贩卖着往前面的‘猜谜三兄弟的家’的入场券。\n因为LV30以下的客人非常的危险\n决定不让你入场。\n请变成LV30以上之后再来吧。
+EventEnd
+
+

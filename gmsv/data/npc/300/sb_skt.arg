@@ -1,0 +1,14 @@
+entype:2
+askbattlemsg1:你也想要得到新的力量吗？
+askbattlemsg2:可是能传授新力量的精灵王在后面
+askbattlemsg3:被我封印起来啦。
+askbattlemsg4:想要解开封印的话，那你就来打倒我吧。
+start msg:
+dieact:1
+warpfl:32021
+warpx:29
+warpy:57
+end msg:
+enemyno:1404,1406,1407,1405,1408,1410,1409,1411,1412,1413
+deniedmsg: 你好像没有打倒我，然后继续前进的资格哦。
+onebattle:0

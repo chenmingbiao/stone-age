@@ -1,0 +1,14 @@
+NPCCREATE
+###### Ñ±ÊÞ»ú±© ######
+{
+name=Ñ±ÊÞ»ú±©
+floorid=1040
+borncenter=23,20
+time=0
+dir=4
+createnum=1
+ignoreinvincible=1
+enemy=npcgen_warpman|file:family/rider.arg
+graphicname=100374
+}
+

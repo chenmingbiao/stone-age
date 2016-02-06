@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:不把这只恐龙打倒的话
+askbattlemsg2:就没有办法到不死鸟的地方去的样子
+askbattlemsg3:打倒它之后再往前进吗？
+star tmsg:
+dieact:0
+end msg:
+enemyno:1247,1245,1245,1244,1244,1245,1247,1247,1246,1246
+deniedmsg:现在还是不要太接近比较好。
+time=300
+

@@ -1,0 +1,27 @@
+###########################################################
+#碧青的洞窟﹛艾尼基的使者事件﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛     #
+# 						负责人：西竹
+##############################################################
+艾尼基身旁的使者的设定
+
+
+NomalMainMsg: 真是不简单\n你成功闯过这个碧青洞窟了。
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>64&ITEM=2766,LV>0&ENDEV=46&ITEM=2766,LV>0&NOWEV=46&ITEM=2766
+NomalWindowMsg:\n真是不简单，你居然可以来到这里\n由于艾尼基大人的好意\n你可以从大箱子跟小箱子其中选择一个带走。\n拿的时候不可有欲望哦。
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>64&NOWEV=46
+NomalWindowMsg:\n\n我听说“深蓝色石头”可以在\n遥远的那一边的石之岛采得哦。
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n\n\n你来这里是为了求取什么啊？
+EventEnd
+

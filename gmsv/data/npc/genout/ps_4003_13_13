@@ -1,0 +1,13 @@
+nomal_rate:1.0
+main_msg:欢迎到收买宠物的商店来\n买取你所拥有的宠物
+realy_msg:这个宠物的话、大概值这个价钱吧！
+over_msg:已经超出你的限度额了可以吗？\n限度额以上的话就没有办法给你啰
+thanks_msg:啊哈、谢啰。\n你要好好的饲养它喔。
+cost_msg:你的钱不够喔。
+pooltanks_msg:衷心的期待您能够再度光临本店。
+poolfull_msg:已经没有办法再保存了。
+getfull_msg:宠物太多没有办法再拿了。
+pool_flg:1
+pool_cost:200
+special_rate:1.5
+special_pet:

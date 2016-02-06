@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:0.8
+main_msg:欢迎光临
+buy_msg:买,购买,感谢您,kau,buy,menu,谢谢,买东西
+sell_msg:卖东西,卖,sell,uru
+sell_main:要卖哪种恐龙的肉呢？
+other_msg:提示,情报,状况,肉,niku
+hint_msg:
+sellonly_msg:欢迎光临\n欢迎到柯尔克的肉品店\卖肉！
+stone_msg:钱带的好多喔！
+realy_msg:真的这个好吗？
+LimitItemNo:1234-1249
+
+special_rate:1.0
+
+
+

@@ -1,0 +1,46 @@
+###########################################################
+#碧青的洞窟﹛艾尼基的使者﹛建立标记﹛﹛﹛﹛﹛﹛﹛     #
+# 						负责人：西竹#
+###########################################################
+
+EventNo:46
+TYPE:REQUEST
+EVENT:LV>64&ENDEV=4&ENDEV=39
+RequestMsg:\n你有接受‘大地的加护’啊\n如果是接受过大地女神加护的人的话\n说不定你可以达成我主人的愿望\n能不能请你听\n我说一件事呢？
+ThanksMsg:\n非常谢谢你。\n其实这几年全世界的水都变的非常肮脏\n所以我掌控水的主人觉得很困扰\n从这里往北走有个“碧青洞窟”\n我主人在那里的地底湖，详情请去问他。
+StopMsg:\n\n你还是不愿意听我主人的愿望啊？
+EndStopMsg:\n\n’’’这样啊、真是太可惜了。
+NoStopMsg:\n\n真是不好意思\n那一切就拜托你了。
+EventEnd
+
+EventNo:46
+TYPE:REQUEST
+EVENT:LV>64&ENDEV=4&ENDEV=40
+RequestMsg: \n你有接受‘火的加护’啊\n如果是接受过火的女神加护的人的话\n说不定你可以达成我主人的愿望\n能不能请你听\n我说一件事呢？
+ThanksMsg:\n非常谢谢你。\n其实这几年全世界的水都变的非常肮脏\n所以我掌控水的主人觉得很困扰\n从这里往北走有个“碧青洞窟”\n我主人在那里的地底湖，详情请去问他。
+StopMsg:\n\n你还是不愿意听我主人的愿望啊？
+EndStopMsg:\n\n’’’这样啊、真是太可惜了。
+NoStopMsg:\n\n真是不好意思\n那一切就拜托你了。
+EventEnd
+
+EventNo:46
+TYPE:REQUEST
+EVENT:LV>64&ENDEV=4&ENDEV=42
+RequestMsg: \n你有接受‘风的加护’啊\n如果是接受过风的女神加护的人的话\n说不定你可以达成我主人的愿望\n能不能请你听\n我说一件事呢？
+ThanksMsg:\n非常谢谢你。\n其实这几年全世界的水都变的非常肮脏\n所以我掌控水的主人觉得很困扰\n从这里往北走有个“碧青洞窟”\n我主人在那里的地底湖，详情请去问他。
+StopMsg:\n\n你还是不愿意听我主人的愿望啊？
+EndStopMsg:\n\n’’’这样啊、真是太可惜了。
+NoStopMsg:\n\n真是不好意思\n那一切就拜托你了。
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>64&ENDEV=46
+NomalWindowMsg:\n你愿意实现水精灵艾尼基大人的愿望\n实在太感谢你了\n我在这里祈祷\n全世界的水可以快一点\n变回以前那样的澄净。
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n最近全世界的水都变的很肮脏。\n这样下去，再过几年\n水就会变的无法让动物栖息\n有没有人可以解决这个问题啊…
+EventEnd

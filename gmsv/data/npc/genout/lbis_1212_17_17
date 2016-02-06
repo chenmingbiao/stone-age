@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:1.0
+buy_msg:买,想要,kau,buy
+main_msg:谢谢！
+sell_msg:卖,sell,uru
+sell_main:您要用那颗矿石兑币呢？
+other_msg:暗示,情报,情况是,肉,niku
+hint_msg:目前没有。
+sellonly_msg:柯尔克矿石的兑币处。\n我只是来买而已，不好意思！
+stone_msg:你的金额已满。
+realy_msg:真的可以吗？
+LimitItemNo:2469-2471
+special_item:2471
+special_rate:1.1
+
+
+

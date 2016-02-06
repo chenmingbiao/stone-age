@@ -1,0 +1,32 @@
+###########################################################
+#琉璃的洞穴dia-to的事件　　　    　    　　  　　　　     #
+# 					     负责人：西竹 #
+###########################################################
+###i-vu的设定
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=40
+NomalWindowMsg:\n带着我的羽毛，就能前往女神之元了吗\n能驯服所有精灵的相应器具\n应该是的吧
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:NOWEV=40&ITEM!=2706
+AcceptMsg:\n你期望精灵的仪式吗···\n收集我的羽毛，就能认可这身躯
+ThanksMsg:\n了解了\n带着我的羽毛去吧\n可是，羽毛一接触到地面后\n痕迹不会消失\n那么，我决定要移到其他地方\n有机会的话再见啰
+ItemFullMsg:\n\n东西太多了\n好像没有
+NpcWarp:20309.18.13,20309.55.49,20309.32.28,20309.46.45
+GetItem:2706
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:NOWEV=40&ITEM=2706
+NomalWindowMsg:\n将我的羽毛带在身上\n带在身上的吗\n尽早离开\n前往女神之元
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n对我有什么用呢?\n了解自己该做的事之后\n来这里真好
+EventEnd

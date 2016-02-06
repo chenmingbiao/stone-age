@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:0.8
+buy_msg:你好,谢谢,买,买,买,谢谢,买,买,想要,kau,buy,请给我
+main_msg:谢谢！
+sell_msg:卖,卖,卖,卖,卖,sell,uru
+sell_main:您想要买哪一种肉？
+other_msg:暗示,情报,状况是,肉,niku
+hint_msg:现在没有。
+sellonly_msg:我是卡鲁它那的外出买肉商。\n我只买肉而已，可以吗？
+stone_msg:您的金额已满！
+realy_msg:这样就可以了吗？
+LimitItemNo:1234-1249
+
+special_rate:0.5
+
+
+

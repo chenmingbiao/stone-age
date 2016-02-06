@@ -1,0 +1,13 @@
+nomal_rate:0.6
+main_msg:欢迎光临宠物店，您的宠物是要卖还是要寄放呢？
+realy_msg:这只宠物的话，大概是这个价码吧……
+over_msg:超出您的限度额也没关系吗？\n在限度额以上的话，多出来的石币就没办法给您啰？
+thanks_msg:多谢您的光临！\n要好好地饲养它喔！
+cost_msg:石币不够了喔？
+pooltanks_msg:欢迎您再度光临。
+poolfull_msg:已经无法再寄放宠物了喔……
+getfull_msg:您身边的宠物已经太多了……
+pool_flg:1
+pool_cost:200
+
+

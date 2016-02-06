@@ -1,0 +1,11 @@
+entype:2
+askbattlemsg1:试试你的力量
+startmsg:放马过来！
+dieact:1
+warpfl:11107
+warpx:23
+warpy:35
+end msg:
+enemyno:527,526,528,529
+deniedmsg:（好像在盯着我这边）
+

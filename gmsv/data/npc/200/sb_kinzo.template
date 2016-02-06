@@ -1,0 +1,14 @@
+NPCTEMPLATE
+#######»³Â±»Ö´ê¤Î¥­¥ó¥¾¡õ¥«¥Ã¤¯¤ó##########
+{
+templatename=sb_kinzo
+makeatnobody=1
+makeatnosee=1
+type=100407
+functionset=NPCEnemy
+hp=100
+mp=100
+str=1
+tough=1
+}
+

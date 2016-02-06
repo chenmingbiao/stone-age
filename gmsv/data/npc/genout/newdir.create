@@ -1,0 +1,12 @@
+NPCCREATE
+{
+floorid=1005
+borncorner=11,13,11,13
+time=0
+createnum=1
+graphicname=16024
+name=ÈøÄ·¼ª¶ûµÄÒ½Éú
+dir=4
+ignoreinvincible=1
+enemy=changeevent|file:genout/msg_1005_11_13
+}

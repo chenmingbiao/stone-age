@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:0.7
+main_msg:欢迎光临！
+buy_msg:买,购买,感谢您,kau,buy,menu,谢谢,买东西
+sell_msg:卖东西,卖,sell,uru
+sell_main:要卖什么水晶跟黏土给我呢？\n
+other_msg:暗示,景气是,niku
+hint_msg:现在加盟店募集中
+sellonly_msg:这里是只收买黏土跟水晶的专门店。\n
+stone_msg:您持有的金钱过多了唷！
+realy_msg:这样就可以了吗？
+LimitItemNo:11900-11909,12000-12009,13084,13087
+
+
+
+
+

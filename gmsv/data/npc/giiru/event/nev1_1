@@ -1,0 +1,28 @@
+################
+#方位的祠  #
+# 担任者：西竹#
+################
+################
+
+NomalMainMsg:我是地的守护者。
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2528
+NomalWindowMsg:\n你已经持有地的勾玉了。
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n来得好！你是适合拥有地的勾玉的人。
+ItemFullMsg:要拿取地的勾玉必须先将道具袋空下来。
+GetItem:2528
+EventEnd
+
+
+
+
+
+
+

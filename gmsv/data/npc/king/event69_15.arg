@@ -1,0 +1,16 @@
+entype:2
+askbattlemsg1:怎么会有人类在这里？
+askbattlemsg2:这里是我黑暗精灵的圣域，人类是不可能上来的才对…
+askbattlemsg3:这么说来，已经有光明精灵入侵天空之岛了吗？
+askbattlemsg4:为了精灵王大人的安全着想，外来者一定要驱逐…
+askbattlemsg5:让我看看你是否有此资格待在天空之岛吧！
+startmsg:我是地守护雅尔丝，来吧！
+dieact:1
+warpfl:30696
+warpx:16
+warpy:14
+endmsg:哎哟，好痛喔…
+enemyno:1686,1677,1677,1677,1677,1677,1677,1677,1677,1677
+deniedmsg:我堂堂地守护雅尔丝不做无谓之战。
+alreadymsg:想和我决斗的话请先排队吧。
+onebattle:1

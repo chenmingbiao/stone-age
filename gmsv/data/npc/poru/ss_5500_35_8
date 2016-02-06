@@ -1,0 +1,17 @@
+EVENT
+main_msg:唉～没有什么好货可以卖...
+realy_msg:这样就可以了吗？
+buy_main:胡椒园都被破坏了，没有什么好的胡椒可以卖...
+buy_msg:我非常需要胡椒
+what_msg:能买几个呢？
+buy_rate:1.0
+ItemList:12174,12175,12176
+sell_main:很抱歉！我没钱买任何东西了...
+sell_rate:0.5
+special_rate:1.5
+itemfull_msg:不好意思、道具已经满了。
+stone_msg:携带的钱太多了。
+other_msg:情报
+hint_msg:没错、特产品是在秘密的场所制造的。
+level_msg:等级不足以使用那个。
+sellonly_msg:唉～没有什么好货可以卖...

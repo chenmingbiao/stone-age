@@ -1,0 +1,36 @@
+###########################################################
+#琉璃的洞窟　蒂雅特的事件　　　　　　　　　　#
+#						负责：西竹#
+###########################################################
+###蒂雅特附近的使用设定
+
+
+NomalMainMsg:太棒了能够\n控制琉璃的洞窟。
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ENDEV=39&ITEM=2700,LV>0&NOWEV=39&ITEM=2700
+NomalWindowMsg:\n没想到你竟然能够到这里来。\n依照蒂雅特女神的厚意\n允许你受下大袋子或小袋子其中一个。\n只要你舍弃欲望就可以获得喔。
+EventEnd
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0&NOWEV=39,LV>0&ENDEV=39
+AcceptMsg:大地的女神从神界离开的时候\n为了能够接受女神的灵魂、在这个世界\n就需要一个宿身\n\n由于宿身是50年改变一次\n在那一年第一个生下幼小生命的母亲\n就会被选为宿身。
+ThanksMsg:从宿身决定的那一刻开始\n那个人就会受到精灵的保护\n就连她的身体都不会受到伤害\n你一定觉得成为宿身的人很不幸吧\n\n但是、完成宿身使命的人\n在最后能够帮你实现一个愿望。
+ThanksMsg2:\n许多人希望下辈子重新转世的时候也\n想跟现在的丈夫跟孩子\n一起过生活。
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0&ITEM=2700
+NomalWindowMsg:\n没想到你竟然能够到这里来。\n依照蒂雅特女神的厚意\n允许你受下大袋子或小袋子其中一个。\n只要你舍弃欲望就可以获得喔。
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n\n\n你对我有什么请求呢？
+EventEnd
+
+

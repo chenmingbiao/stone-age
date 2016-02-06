@@ -1,0 +1,13 @@
+nomal_rate:1.0
+main_msg:玛丽娜丝～、宠物店～\n欢迎光临～
+realy_msg:这个宠物是～、这样左右吧～
+over_msg:超过了你的限度额～、可以吗？\n到达限度额以上的话～就没办法给你了
+thanks_msg:多谢～。要卖好的宠物吗～
+cost_msg:钱不够喔。
+pooltanks_msg:请你再度光临～。
+poolfull_msg:已经无法再寄放了～。
+getfull_msg:宠物已经太多了无法再拿了。
+pool_flg:1
+pool_cost:200
+special_rate:1.5
+special_pet:

@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:0.6
+buy_msg:买,想要,kau,buy
+main_msg:谢谢！
+sell_msg:卖,sell,uru
+sell_main:您要什么样的肉呢？
+other_msg:暗示,情报,情况是,肉,niku
+hint_msg:目前没有。
+sellonly_msg:柯尔克坑道的外出买肉商店。\n我只是来买的，不好意思。
+stone_msg:你的金额已满。
+realy_msg:真的可以吗？
+LimitItemNo:1600-2343
+special_item:
+special_rate:0.5
+
+
+

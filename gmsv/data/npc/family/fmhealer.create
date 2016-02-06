@@ -1,0 +1,53 @@
+NPCCREATE
+# 萨姆吉尔家族小护士
+{
+floorid=1041
+borncorner=4,8,4,8
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16023
+name=家族小护士
+enemy=npcgen_fmhealer|1
+}
+
+# 玛丽娜丝家族小护士
+{
+floorid=2031
+borncorner=13,8,13,8
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16023
+name=家族小护士
+enemy=npcgen_fmhealer|1
+}
+
+
+# 加加家族小护士
+{
+floorid=3031
+borncorner=2,9,2,9
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16023
+name=家族小护士
+enemy=npcgen_fmhealer|1
+}
+
+# 卡鲁它那家族小护士
+{
+floorid=4031
+borncorner=12,8,12,8
+time=0
+createnum=1
+dir=4
+ignoreinvincible=1
+graphicname=16023
+name=家族小护士
+enemy=npcgen_fmhealer|1
+}

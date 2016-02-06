@@ -1,0 +1,13 @@
+nomal_rate:0.6
+main_msg:买收您的宠物。\n
+realy_msg:如果是这个宠物的话，大概是这个价钱。
+over_msg:超过限度以上无法付钱给您。
+thanks_msg:谢谢您！
+special_rate:1.5
+special_pet:
+
+
+
+
+
+

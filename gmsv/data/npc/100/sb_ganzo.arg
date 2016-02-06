@@ -1,0 +1,12 @@
+entype:2
+askbattlemsg1:如果能赢过我的话就让你通过。要决胜负吗？
+startmsg:呼拔吉，去吧！
+dieact:0
+#warpfl:100
+#warpx:472
+#warpy:293
+end msg:
+enemyno:253,254
+deniedmsg:有什么事吗？
+time=60
+

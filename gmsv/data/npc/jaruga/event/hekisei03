@@ -1,0 +1,33 @@
+###########################################################
+#碧青洞窟 ﹛艾尼基的事件﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛     #
+# 						负责人：西竹#
+###########################################################
+###制造水晶的贤者的设定
+
+
+NomalMainMsg:真是不简单，你居然可以来到这里。
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>64&ENDEV=46
+NomalWindowMsg:\n\n\n嗯嗯，我制造的\n碧青水晶派上场了吗？
+EventEnd
+
+
+EventNo:46
+TYPE:ACCEPT
+EVENT:LV>64&NOWEV=46&ITEM=2767&ITEM=2768,LV>64&NOWEV=46&ITEM!=2769
+AcceptMsg:\n\n你要我制造碧青水晶吗？
+ThanksMsg:那你把深蓝色石头跟群青之水交给我就好了\n这个石头跟水\n可以合成为碧青水晶\n本来合成水晶\n需要漫长的岁月才可以完成啊···\n你看，完成了，你就拿去吧。\n什么，不用道谢啦。
+ItemFullMsg:你身上好像东西太多了，所以带不走哦\n你把东西弄少一点之后\n在过来一趟吧。
+DelItem:2767,2768
+GetItem:2769
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n\n你找我有什么事啊？\n我最拿手的就是合成水晶哦。
+EventEnd

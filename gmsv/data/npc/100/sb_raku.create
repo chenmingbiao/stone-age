@@ -1,0 +1,12 @@
+NPCCREATE
+#######ÍîÀĞ##########
+{
+floorid=10603
+borncenter=42,24,1,1
+movecenter=20,20,100,100
+createnum=1
+dir=4
+graphicname=100471
+name=ÂäÊ¯
+enemy=sb_raku|file:100/sb_raku.arg
+}

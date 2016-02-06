@@ -1,0 +1,10 @@
+entype:2
+askbattlemsg1:潜到内部似乎有什么目的。
+askbattlemsg2:要往前进吗？
+start msg:突然遭到走失的格鲁西斯袭击！！
+dieact:0
+end msg:
+enemyno:1003
+deniedmsg:好像没有疝N到这边···
+time:180
+

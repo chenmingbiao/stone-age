@@ -1,0 +1,13 @@
+NEWWARPMAN
+
+NOFREE
+FREE:LV>0
+NomalMsg:就算你打败了四位守护，我柯黑穆肯也不会让你继续前进。
+PartyMsg:不要以为人多势众我就会怕你。
+OVER
+
+TALKEVENT1
+WARP:30689,12,34
+FREE:ENDEV=4&ENDEV=69&ENDEV=70&ENDEV=71&NOWEV=72
+FreeMsg:想见到精灵王大人，得要有过人的智慧才行！你已经准备好接受考验了吗？
+OVER

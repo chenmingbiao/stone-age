@@ -1,0 +1,16 @@
+main_msg:欢迎光临
+buy_msg:你好,欢迎惠顾,买,买这个,buy
+other_msg:情报
+hint_msg:这个胡椒是用各地的特产品来制造哦。
+buy_main:如果你要在这个洞窟工作的话\n绝对少不了这个提高捕捉率的胡椒哦。
+sell_main:你想要卖什么呢？
+sell_msg:卖,我卖,我要卖,卖什么,sell
+what_msg:想要买几个呢？
+stone_msg:你身上的钱太多了哦。
+level_msg:你的等级不够用这个哦。
+realy_msg:这样就好了吗？
+itemfull_msg:对不起，你身上东西太多了。
+ItemList:12856
+LimitItemNo:12856
+special_rate:0.6
+sell_rate:0.6

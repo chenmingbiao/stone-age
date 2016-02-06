@@ -1,0 +1,23 @@
+NPCTEMPLATE
+
+# Family Dengon
+{
+templatename=npcgen_fmdengon
+makeatnobody=1
+makeatnosee=1
+name=
+graphicname=2204
+type=SPR_sslma_1
+functionset=FmDengon
+}
+
+# Family Healer
+{
+templatename=npcgen_fmhealer
+makeatnobody=1
+makeatnosee=1
+name=
+graphicname=SPR_kkanngof
+loopfunctime=4000
+functionset=FmHealer
+}

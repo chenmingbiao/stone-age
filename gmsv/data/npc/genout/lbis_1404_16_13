@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:1.0
+main_msg:ＨＥＹ！欢迎光临
+buy_msg:买,购买,感谢您,kau,buy,menu,谢谢,买东西
+sell_msg:卖东西,卖,sell,uru
+sell_main:要卖哪种好呢？
+other_msg:提示,情报,状况,肉品,niku
+hint_msg:我们店里用0.9算喔！
+sellonly_msg:只跟你买东西而已可以吗？
+stone_msg:钱带太多了！
+realy_msg:真的好吗？
+LimitItemNo:1234-1249
+
+special_rate:0.8
+
+
+

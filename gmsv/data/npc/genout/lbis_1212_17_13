@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:1.0
+buy_msg:买,想要,kau,buy
+main_msg:谢谢！
+sell_msg:卖,sell,uru
+sell_main:您要用哪张证明书来换钱呢？
+other_msg:暗示,情况是,肉,卞仁,niku
+hint_msg:目前没有。
+sellonly_msg:以采石证明书来兑币的地方。\n我只有买而已，不好意思！
+stone_msg:你的金额已满。
+realy_msg:真的可以了吗？
+LimitItemNo:2472-2474
+special_item:2474
+special_rate:1.1
+
+
+

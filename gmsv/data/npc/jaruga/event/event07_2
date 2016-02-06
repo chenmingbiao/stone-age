@@ -1,0 +1,37 @@
+##################################################
+#将乌力斯凯的信件交给乌力美之事件 (哥亚山)#
+# 				       担任者:西竹
+##################################################
+
+NomalMainMsg:乌力乌力
+
+EventNo:7
+TYPE:ACCEPT
+EVENT:NOWEV=7&ITEM=2414&ITEM=2424&ITEM=2425
+AcceptMsg:哇！月光花\n特地买给我的吗？
+ThanksMsg:还附着一封信，好开心\n这是住在1楼的乌力斯凯托你交给我的\n\n从这么远的地方送来，真是麻烦你\n我读完信后马上回封信\n不知可否请你稍后再过来一趟呢？
+DelItem:2425,2424
+EndSetFlg:7
+EventEnd
+
+
+
+EventNo:8
+TYPE:REQUEST
+EVENT:LV>0&ENDEV=7&ITEM=2414
+RequestMsg:啊，你来了吗？\n这是我写给乌力斯凯的信。\n可否请你再跑一趟，\n帮我把信拿给乌力斯凯呢？\n
+ThanksMsg:那就拜托你了\n请小心\n不要将信弄丢
+StopMsg:没办法送吗？
+EndStopMsg:这样啊\n那我再去找别人
+NoStopMsg:给您添麻烦了\n万事拜托
+ItemFullMsg:惨了你的道具袋已经满了\n好像装不下了
+GetItem:2426
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ITEM=2414
+NomalMsg:我很喜欢月光花。它的花朵所呈现的色彩，就如那悬挂在夜空中的月光般迷人
+EventEnd
+

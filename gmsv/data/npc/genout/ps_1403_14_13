@@ -1,0 +1,13 @@
+nomal_rate:1.0
+main_msg:买卖宠物请到宠物商店\n要什么宠物？
+realy_msg:这只宠物的话，大约值这么多！
+over_msg:超过额度了，可以吗？\n超过限额的话，不行的···
+thanks_msg:谢啦！\n要好好照顾宠物喔！
+special_rate:1.5
+special_pet:
+
+
+
+
+
+

@@ -1,0 +1,9 @@
+NPCTEMPLATE
+{
+templatename=BodyLan
+makeatnobody=1
+makeatnosee=1
+name=WHealer
+loopfunctime=4000
+functionset=BodyLan
+}

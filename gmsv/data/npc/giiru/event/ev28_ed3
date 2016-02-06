@@ -1,0 +1,29 @@
+#########################
+#5溶眬及福   ﹋幼□伙﹌ #
+#仍褞叁2    ﹛么癫“谰幂#
+#########################
+#########################
+
+NomalMainMsg:欢迎来到五兄弟的地下城！,来的好！我们正在单待秆开谜底者。
+
+EventNo:31
+TYPE:ACCEPT
+EVENT:ENDEV=28&NOWEV=31&ITEM=2517
+AcceptMsg:\n我是基洛斯，掌管“火水”的人，欢迎你来。\n现在我就此收下“智之挡晶”\n并且把我的戒指给你\n由此我得以承认你\n你要踇受我的洗搂吗？
+ThanksMsg:\n\n那我依照约定收下“智之挡晶”了\n我把我的戒指给你。\n我要把我的半身\n赐给拥有我戒指的你\n这就是我跟你的信赖的证明摆。
+ItemFullMsg:要持有我所给的戒指\n必须先预留一个道具栏空位。
+PetFullMsg:要得到我的分身，必须先将宠物栏空下来。
+DelItem:2517
+GetItem:2520
+GetPet:55
+EndSetFlg:31
+EventEnd
+
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:ENDEV=28&ENDEV=31&ITEM!=2517&ITEM=2520&PET>0-92,ENDEV=28&ENDEV=31&ITEM!=2517&PET>0-92
+NomalWindowMsg:\n我是基洛斯，掌管“火水”的人，欢迎你来。\n你是经过我认可的人。\n粻你这掔人\n莱渧是不会告诉别人谜底吧！\n我相信你哦···。
+EventEnd
+
+

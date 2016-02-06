@@ -1,0 +1,47 @@
+###########################################################
+#碧青的洞窟﹛艾尼基的事件﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛﹛     #
+# 						负责人：西竹
+###########################################################
+###艾尼基的设定
+
+
+NomalMainMsg:\n真是不简单\n你成功闯过这个碧青洞窟了。
+
+EventNo:46
+TYPE:ACCEPT
+EVENT:LV>64&NOWEV=46&ITEM=2769
+AcceptMsg:\n真是不简单，你成功闯过这个碧青洞窟了。\n\n我承认你是\n可以接受水的加护的人物。
+ThanksMsg:\把碧青的水晶交给我吧…\n我要拿这个来净化\n全世界的水，真是太感谢你了。\n今请收下这个“水的戒指”吧\n我相信这个一定能帮上你的忙\n希望水将会加护你未来的旅程。
+ItemFullMsg:\n你身上东西太多了\n能不能请你把身上东西减少一点，然后再过来一趟啊？
+DelItem:2769
+GetItem:2770
+Charm:1
+EndSetFlg:46
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>64&ENDEV=46&ITEM=2766,LV>64&ITEM=2766
+NomalWindowMsg:\n真是不简单，你成功闯过这个碧青洞窟了。\n我承认你是‘征服水之人’\n我要给你一点奖赏\n\n在我身旁的使者那边\n我准备了大箱子跟小箱子\n从里面挑一个你喜欢的吧\n希望水将会加护你未来的旅程
+EventEnd
+
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>64&NOWEV=46&ITEM!=2769,LV>64&NOWEV=46
+AcceptMsg:\n真是不简单，你成功闯过这个碧青洞窟了。\n我相信事情的大概\n你已经听我在奇喀喀的使者说过了。\n\n再来我会把详情说出来\n你愿意听吗？
+ThanksMsg:\n这个世界的水正逐日变的越来越肮脏\n为了净化日趋肮脏的水\n我需要“碧青水晶”\n碧青水晶是用“深蓝色石头”跟“群青的水”\n合成而成的。\n而我想请你帮我\n把石头跟水找来。
+ThanksMsg2:\n如果你找到石头跟水的话\n请你把这个交给后方洞窟里的贤者\n请他帮你合成水晶\n然后能不能请你把“碧青水晶”\n拿到我这里来呢。\n当你把水晶拿到我这里的时候\n我就承认你是‘征服水之人’。
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>64&ENDEV=46
+NomalWindowMsg:\n真的非常谢谢你。\n我要用“碧青水晶”，来净化全世界的水\n让全世界的水不会继续变污浊 \n希望水将会加护你未来的旅程
+EventEnd
+
+EventNo:-1
+TYPE:MESSAGE
+EVENT:LV>0
+NomalWindowMsg:\n很感谢你来到这里\n可是你身上没有\n‘水苍之贝’啊\n\n真是太可惜，请你从来一次吧。\n希望水将会加护你未来的旅程
+EventEnd

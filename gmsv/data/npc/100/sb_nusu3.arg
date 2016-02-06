@@ -1,0 +1,12 @@
+entype:2
+askbattlemsg1:啊、那是我们的脚印耶…。
+askbattlemsg2:如果是现在的话我还可以原谅你。
+askbattlemsg3:把那个拿过来。
+startmsg:哈哈哈。你上当了！
+dieact:0
+item:2431
+end msg:我居然会输…。
+enemyno:515,519
+deniedmsg:没敲门就进入淑女的房间是不合礼葵渔@。我现在很忙，可以请你出去吗？如果你太讨厌的话我就叫人来哦！
+time:300
+

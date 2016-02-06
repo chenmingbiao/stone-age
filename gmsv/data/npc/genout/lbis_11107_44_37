@@ -1,0 +1,17 @@
+LIMITSHOP
+sell_rate:0.8
+buy_msg:你好,谢谢,买,买,买,谢谢,买,买,想要,kau,buy,请
+main_msg:欢迎光临！
+sell_msg:卖,卖,卖,卖,卖,sell,uru
+sell_main:你要哪一种肉呢？\n鲁尼跟呼拔拔的肉不太....
+other_msg:盗贼
+hint_msg:我才刚进来，也分不清东西方向呢！
+sellonly_msg:有人叫你把肉收集好啊？\n你要买肉的话....可以啊！
+stone_msg:你的金额已满。
+realy_msg:真的那个就可以了吗？
+LimitItemNo:1234-1249
+special_item:1786-1791,1804-1809
+special_rate:0.5
+
+
+

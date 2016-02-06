@@ -1,0 +1,13 @@
+NomalMainMsg:这里是玛丽娜丝村。,想在店里买东西时，只要说‘买’就可以成交。如果说‘卖’就可以卖东西。
+
+EventNo:-1
+TYPE:ACCEPT
+EVENT:LV>0
+AcceptMsg:这里是玛丽娜丝村。,想在店里买东西时，只要说‘买’就可以成交。如果说‘卖’就可以卖东西。
+ThanksMsg:这里是玛丽娜丝村。,想在店里买东西时，只要说‘买’就可以成交。如果说‘卖’就可以卖东西。
+PetFullMsg:咦？东西已经装不下了啊…。
+ItemFullMsg:咦？东西已经装不下了啊…。
+KeyWord:楍
+GetPet:1661,1662,1663,1664
+GetItem:2291,20798
+EventEnd

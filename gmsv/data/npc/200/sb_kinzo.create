@@ -1,0 +1,12 @@
+NPCCREATE
+#######怀卤恢搓のキンゾ□カッくん##########
+{
+floorid=200
+borncenter=479,507,1,1
+movecenter=20,20,100,100
+createnum=1
+dir=0
+graphicname=100407
+name=想成为山贼的近藏
+enemy=sb_kinzo|file:200/sb_kinzo.arg
+}

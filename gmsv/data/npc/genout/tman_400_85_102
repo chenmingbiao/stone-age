@@ -1,0 +1,4 @@
+time:AFTER
+main_msg:有太阳的时候，不可以从这里进入梦幻洞窟
+change_msg:太阳下山后，就可以从这里进入梦幻洞窟了。
+change_no:16204
