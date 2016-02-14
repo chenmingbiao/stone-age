@@ -1,4 +1,4 @@
-# stone-age
+# Stone Age
 StoneAge 2.5 Server Source Code｜石器时代 2.5 服务端代码
 
 ![](https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2467008736,3346972993&fm=58&s=47C4FD0E689A4FE34E96C26F0300A06F)
